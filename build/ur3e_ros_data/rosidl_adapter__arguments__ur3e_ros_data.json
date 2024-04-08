@@ -1,0 +1,7 @@
+{
+  "package_name": "ur3e_ros_data",
+  "non_idl_tuples": [
+    "/home/harry/ur_ws/src/ur3e_ros_data:msg/JointPose.msg",
+    "/home/harry/ur_ws/src/ur3e_ros_data:action/MoveJ.action"
+  ]
+}

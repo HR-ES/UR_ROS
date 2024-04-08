@@ -1,0 +1,5 @@
+source;share/ur3e_ros_data/local_setup.bash
+source;share/ur3e_ros_data/local_setup.dsv
+source;share/ur3e_ros_data/local_setup.ps1
+source;share/ur3e_ros_data/local_setup.sh
+source;share/ur3e_ros_data/local_setup.zsh
