@@ -1,0 +1,826 @@
+[0.000000] (-) TimerEvent: {}
+[0.001332] (ur3e_gazebo_sim) JobQueued: {'identifier': 'ur3e_gazebo_sim', 'dependencies': OrderedDict()}
+[0.001411] (ur3e_ros_action) JobQueued: {'identifier': 'ur3e_ros_action', 'dependencies': OrderedDict()}
+[0.001444] (ur3e_ros_data) JobQueued: {'identifier': 'ur3e_ros_data', 'dependencies': OrderedDict()}
+[0.002156] (ur3e_gazebo_sim) JobStarted: {'identifier': 'ur3e_gazebo_sim'}
+[0.014117] (ur3e_ros_action) JobStarted: {'identifier': 'ur3e_ros_action'}
+[0.046816] (ur3e_gazebo_sim) JobProgress: {'identifier': 'ur3e_gazebo_sim', 'progress': 'cmake'}
+[0.050321] (ur3e_gazebo_sim) JobProgress: {'identifier': 'ur3e_gazebo_sim', 'progress': 'build'}
+[0.062804] (ur3e_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harry/ur_ws/build/ur3e_gazebo_sim', '--', '-j2', '-l2'], 'cwd': '/home/harry/ur_ws/build/ur3e_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'harry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry:@/tmp/.ICE-unix/1412,unix/harry:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d22af697_2c34_4d19_996a_2b30f4cda242'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HD45L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/ur_ws/build/ur3e_gazebo_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.101479] (-) TimerEvent: {}
+[0.203462] (-) TimerEvent: {}
+[0.304597] (-) TimerEvent: {}
+[0.408581] (-) TimerEvent: {}
+[0.515303] (-) TimerEvent: {}
+[0.625781] (-) TimerEvent: {}
+[0.741837] (-) TimerEvent: {}
+[0.844897] (-) TimerEvent: {}
+[0.932447] (ur3e_gazebo_sim) CommandEnded: {'returncode': 0}
+[0.946291] (-) TimerEvent: {}
+[1.025824] (ur3e_gazebo_sim) JobProgress: {'identifier': 'ur3e_gazebo_sim', 'progress': 'install'}
+[1.047653] (ur3e_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/harry/ur_ws/build/ur3e_gazebo_sim'], 'cwd': '/home/harry/ur_ws/build/ur3e_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'harry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry:@/tmp/.ICE-unix/1412,unix/harry:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d22af697_2c34_4d19_996a_2b30f4cda242'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HD45L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/ur_ws/build/ur3e_gazebo_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.049394] (-) TimerEvent: {}
+[1.067774] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.068226] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config\n'}
+[1.069998] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/joint_limits.yaml\n'}
+[1.071281] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/visual_parameters.yaml\n'}
+[1.072091] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/default_kinematics.yaml\n'}
+[1.073057] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/physical_parameters.yaml\n'}
+[1.080115] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/ur3e_controller.yaml\n'}
+[1.080571] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/initial_positions.yaml\n'}
+[1.080821] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/launch\n'}
+[1.081045] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/launch/ur3e_sim.launch.py\n'}
+[1.081253] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf\n'}
+[1.081455] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_ros2_control.xacro\n'}
+[1.081654] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e.urdf.xacro\n'}
+[1.081852] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_common.xacro\n'}
+[1.082048] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_macro.urdf.xacro\n'}
+[1.082249] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_transmission.xacro\n'}
+[1.082441] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds\n'}
+[1.082630] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e.world\n'}
+[1.082819] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e_2.world\n'}
+[1.083008] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes\n'}
+[1.083197] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual\n'}
+[1.083423] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist1.dae\n'}
+[1.083614] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/base.dae\n'}
+[1.083805] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/shoulder.dae\n'}
+[1.084387] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/forearm.dae\n'}
+[1.085078] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/upperarm.dae\n'}
+[1.085888] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist3.dae\n'}
+[1.086509] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist2.dae\n'}
+[1.086798] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision\n'}
+[1.087017] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/shoulder.stl\n'}
+[1.087221] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist3.stl\n'}
+[1.087418] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist1.stl\n'}
+[1.087611] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/forearm.stl\n'}
+[1.087840] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist2.stl\n'}
+[1.088275] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/upperarm.stl\n'}
+[1.088482] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/base.stl\n'}
+[1.099264] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/ur3e_gazebo_sim\n'}
+[1.099696] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/ur3e_gazebo_sim\n'}
+[1.099941] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/ament_prefix_path.sh\n'}
+[1.100147] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/ament_prefix_path.dsv\n'}
+[1.100345] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/path.sh\n'}
+[1.100588] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/path.dsv\n'}
+[1.100785] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.bash\n'}
+[1.100985] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.sh\n'}
+[1.101178] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.zsh\n'}
+[1.101550] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.dsv\n'}
+[1.101772] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.dsv\n'}
+[1.106708] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/packages/ur3e_gazebo_sim\n'}
+[1.114198] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/cmake/ur3e_gazebo_simConfig.cmake\n'}
+[1.115585] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/cmake/ur3e_gazebo_simConfig-version.cmake\n'}
+[1.115822] (ur3e_gazebo_sim) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.xml\n'}
+[1.116028] (ur3e_gazebo_sim) CommandEnded: {'returncode': 0}
+[1.150731] (-) TimerEvent: {}
+[1.252381] (-) TimerEvent: {}
+[1.339061] (ur3e_gazebo_sim) JobEnded: {'identifier': 'ur3e_gazebo_sim', 'rc': 0}
+[1.341571] (ur3e_ros_data) JobStarted: {'identifier': 'ur3e_ros_data'}
+[1.352966] (-) TimerEvent: {}
+[1.378457] (ur3e_ros_data) JobProgress: {'identifier': 'ur3e_ros_data', 'progress': 'cmake'}
+[1.380976] (ur3e_ros_data) JobProgress: {'identifier': 'ur3e_ros_data', 'progress': 'build'}
+[1.381825] (ur3e_ros_data) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harry/ur_ws/build/ur3e_ros_data', '--', '-j2', '-l2'], 'cwd': '/home/harry/ur_ws/build/ur3e_ros_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'harry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry:@/tmp/.ICE-unix/1412,unix/harry:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d22af697_2c34_4d19_996a_2b30f4cda242'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HD45L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/ur_ws/build/ur3e_ros_data'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.462913] (-) TimerEvent: {}
+[1.476853] (ur3e_ros_data) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.568543] (-) TimerEvent: {}
+[1.670334] (-) TimerEvent: {}
+[1.771746] (-) TimerEvent: {}
+[1.873650] (-) TimerEvent: {}
+[1.978305] (-) TimerEvent: {}
+[2.001350] (ur3e_ros_data) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[2.012394] (ur3e_ros_data) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.078732] (-) TimerEvent: {}
+[2.127809] (ur3e_ros_data) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.179686] (-) TimerEvent: {}
+[2.243055] (ur3e_ros_data) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[2.280238] (-) TimerEvent: {}
+[2.373804] (ur3e_ros_action) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ur3e_ros_action', 'build', '--build-base', '/home/harry/ur_ws/build/ur3e_ros_action/build', 'install', '--record', '/home/harry/ur_ws/build/ur3e_ros_action/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/ur_ws/src/ur3e_ros_action', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'harry', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/harry', 'OLDPWD': '/home/harry/ur_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1734', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'harry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harry:@/tmp/.ICE-unix/1412,unix/harry:/tmp/.ICE-unix/1412', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d22af697_2c34_4d19_996a_2b30f4cda242', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HD45L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harry/ur_ws/build/ur3e_ros_action', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/ur_ws/build/ur3e_ros_action/prefix_override:/home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.386467] (-) TimerEvent: {}
+[2.488640] (-) TimerEvent: {}
+[2.589724] (-) TimerEvent: {}
+[2.690639] (-) TimerEvent: {}
+[2.792588] (-) TimerEvent: {}
+[2.895029] (-) TimerEvent: {}
+[2.996571] (-) TimerEvent: {}
+[3.097634] (-) TimerEvent: {}
+[3.199162] (-) TimerEvent: {}
+[3.222650] (ur3e_ros_action) StdoutLine: {'line': b'running egg_info\n'}
+[3.223260] (ur3e_ros_action) StdoutLine: {'line': b'creating ../../build/ur3e_ros_action/ur3e_ros_action.egg-info\n'}
+[3.231315] (ur3e_ros_action) StdoutLine: {'line': b'writing ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/PKG-INFO\n'}
+[3.236913] (ur3e_ros_action) StdoutLine: {'line': b'writing dependency_links to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/dependency_links.txt\n'}
+[3.240680] (ur3e_ros_action) StdoutLine: {'line': b'writing entry points to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/entry_points.txt\n'}
+[3.243077] (ur3e_ros_action) StdoutLine: {'line': b'writing requirements to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/requires.txt\n'}
+[3.245057] (ur3e_ros_action) StdoutLine: {'line': b'writing top-level names to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/top_level.txt\n'}
+[3.247015] (ur3e_ros_action) StdoutLine: {'line': b"writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'\n"}
+[3.254566] (ur3e_ros_action) StdoutLine: {'line': b"reading manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'\n"}
+[3.258336] (ur3e_ros_action) StdoutLine: {'line': b"writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'\n"}
+[3.260821] (ur3e_ros_action) StdoutLine: {'line': b'running build\n'}
+[3.261267] (ur3e_ros_action) StdoutLine: {'line': b'running build_py\n'}
+[3.263417] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/build/ur3e_ros_action/build\n'}
+[3.264160] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/build/ur3e_ros_action/build/lib\n'}
+[3.264654] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action\n'}
+[3.265061] (ur3e_ros_action) StdoutLine: {'line': b'copying ur3e_ros_action/moveJ_action.py -> /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action\n'}
+[3.265933] (ur3e_ros_action) StdoutLine: {'line': b'copying ur3e_ros_action/__init__.py -> /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action\n'}
+[3.267743] (ur3e_ros_action) StdoutLine: {'line': b'running install\n'}
+[3.269523] (ur3e_ros_action) StdoutLine: {'line': b'running install_lib\n'}
+[3.272955] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action\n'}
+[3.274271] (ur3e_ros_action) StdoutLine: {'line': b'copying /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action/moveJ_action.py -> /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action\n'}
+[3.276423] (ur3e_ros_action) StdoutLine: {'line': b'copying /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action/__init__.py -> /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action\n'}
+[3.279943] (ur3e_ros_action) StdoutLine: {'line': b'byte-compiling /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action/moveJ_action.py to moveJ_action.cpython-310.pyc\n'}
+[3.284093] (ur3e_ros_action) StdoutLine: {'line': b'byte-compiling /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action/__init__.py to __init__.cpython-310.pyc\n'}
+[3.286578] (ur3e_ros_action) StdoutLine: {'line': b'running install_data\n'}
+[3.288374] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index\n'}
+[3.289774] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index\n'}
+[3.291184] (ur3e_ros_action) StdoutLine: {'line': b'creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index/packages\n'}
+[3.293181] (ur3e_ros_action) StdoutLine: {'line': b'copying resource/ur3e_ros_action -> /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index/packages\n'}
+[3.294876] (ur3e_ros_action) StdoutLine: {'line': b'copying package.xml -> /home/harry/ur_ws/install/ur3e_ros_action/share/ur3e_ros_action\n'}
+[3.296694] (ur3e_ros_action) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.300644] (-) TimerEvent: {}
+[3.301669] (ur3e_ros_action) StdoutLine: {'line': b'Copying ../../build/ur3e_ros_action/ur3e_ros_action.egg-info to /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info\n'}
+[3.319818] (ur3e_ros_action) StdoutLine: {'line': b'running install_scripts\n'}
+[3.390887] (ur3e_ros_action) StdoutLine: {'line': b'Installing moveJ script to /home/harry/ur_ws/install/ur3e_ros_action/lib/ur3e_ros_action\n'}
+[3.393475] (ur3e_ros_action) StdoutLine: {'line': b"writing list of installed files to '/home/harry/ur_ws/build/ur3e_ros_action/install.log'\n"}
+[3.401045] (-) TimerEvent: {}
+[3.504998] (ur3e_ros_action) CommandEnded: {'returncode': 0}
+[3.509060] (-) TimerEvent: {}
+[3.554842] (ur3e_ros_action) JobEnded: {'identifier': 'ur3e_ros_action', 'rc': 0}
+[3.609381] (-) TimerEvent: {}
+[3.712029] (-) TimerEvent: {}
+[3.822349] (-) TimerEvent: {}
+[3.929094] (-) TimerEvent: {}
+[4.040396] (-) TimerEvent: {}
+[4.056288] (ur3e_ros_data) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[4.147965] (-) TimerEvent: {}
+[4.256860] (-) TimerEvent: {}
+[4.364561] (-) TimerEvent: {}
+[4.470853] (-) TimerEvent: {}
+[4.572495] (-) TimerEvent: {}
+[4.674898] (-) TimerEvent: {}
+[4.701954] (ur3e_ros_data) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.775348] (-) TimerEvent: {}
+[4.877022] (-) TimerEvent: {}
+[4.979018] (-) TimerEvent: {}
+[5.080523] (-) TimerEvent: {}
+[5.190288] (-) TimerEvent: {}
+[5.291658] (-) TimerEvent: {}
+[5.395670] (-) TimerEvent: {}
+[5.497288] (-) TimerEvent: {}
+[5.595690] (ur3e_ros_data) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.598451] (-) TimerEvent: {}
+[5.659525] (ur3e_ros_data) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[5.700069] (-) TimerEvent: {}
+[5.745617] (ur3e_ros_data) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.745978] (ur3e_ros_data) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.746245] (ur3e_ros_data) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.813398] (-) TimerEvent: {}
+[5.829942] (ur3e_ros_data) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[5.853274] (ur3e_ros_data) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.854345] (ur3e_ros_data) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.858386] (ur3e_ros_data) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.915005] (-) TimerEvent: {}
+[5.998580] (ur3e_ros_data) StdoutLine: {'line': b'-- Generating done\n'}
+[6.015480] (-) TimerEvent: {}
+[6.017374] (ur3e_ros_data) StdoutLine: {'line': b'-- Build files have been written to: /home/harry/ur_ws/build/ur3e_ros_data\n'}
+[6.117457] (-) TimerEvent: {}
+[6.134130] (ur3e_ros_data) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.218243] (-) TimerEvent: {}
+[6.322460] (-) TimerEvent: {}
+[6.424633] (-) TimerEvent: {}
+[6.538336] (-) TimerEvent: {}
+[6.645319] (-) TimerEvent: {}
+[6.746109] (-) TimerEvent: {}
+[6.853006] (-) TimerEvent: {}
+[6.861175] (ur3e_ros_data) StdoutLine: {'line': b'[  2%] Built target ur3e_ros_data__rosidl_generator_type_description\n'}
+[6.950434] (ur3e_ros_data) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ur3e_ros_data\n'}
+[6.954591] (-) TimerEvent: {}
+[7.029716] (ur3e_ros_data) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.071858] (-) TimerEvent: {}
+[7.173615] (-) TimerEvent: {}
+[7.277266] (-) TimerEvent: {}
+[7.392745] (-) TimerEvent: {}
+[7.500958] (-) TimerEvent: {}
+[7.609522] (-) TimerEvent: {}
+[7.717693] (-) TimerEvent: {}
+[7.821600] (-) TimerEvent: {}
+[7.925055] (-) TimerEvent: {}
+[8.029650] (-) TimerEvent: {}
+[8.136737] (-) TimerEvent: {}
+[8.238144] (-) TimerEvent: {}
+[8.341129] (-) TimerEvent: {}
+[8.445897] (-) TimerEvent: {}
+[8.553559] (-) TimerEvent: {}
+[8.660824] (-) TimerEvent: {}
+[8.768442] (-) TimerEvent: {}
+[8.852323] (ur3e_ros_data) StdoutLine: {'line': b'[  4%] Built target ur3e_ros_data__cpp\n'}
+[8.874748] (-) TimerEvent: {}
+[8.890239] (ur3e_ros_data) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.975447] (-) TimerEvent: {}
+[9.079343] (-) TimerEvent: {}
+[9.180165] (-) TimerEvent: {}
+[9.282504] (-) TimerEvent: {}
+[9.383741] (-) TimerEvent: {}
+[9.488021] (-) TimerEvent: {}
+[9.589707] (-) TimerEvent: {}
+[9.692473] (-) TimerEvent: {}
+[9.794483] (-) TimerEvent: {}
+[9.895933] (-) TimerEvent: {}
+[9.997985] (-) TimerEvent: {}
+[10.100125] (-) TimerEvent: {}
+[10.201487] (-) TimerEvent: {}
+[10.302472] (-) TimerEvent: {}
+[10.404089] (-) TimerEvent: {}
+[10.505653] (-) TimerEvent: {}
+[10.608798] (-) TimerEvent: {}
+[10.717302] (-) TimerEvent: {}
+[10.825352] (-) TimerEvent: {}
+[10.941540] (-) TimerEvent: {}
+[11.043452] (-) TimerEvent: {}
+[11.070713] (ur3e_ros_data) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c.o\x1b[0m\n'}
+[11.144558] (-) TimerEvent: {}
+[11.258874] (-) TimerEvent: {}
+[11.265827] (ur3e_ros_data) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__functions.c.o\x1b[0m\n'}
+[11.365970] (-) TimerEvent: {}
+[11.409484] (ur3e_ros_data) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__type_support.c.o\x1b[0m\n'}
+[11.469200] (-) TimerEvent: {}
+[11.506089] (ur3e_ros_data) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__description.c.o\x1b[0m\n'}
+[11.582745] (-) TimerEvent: {}
+[11.685214] (-) TimerEvent: {}
+[11.787208] (-) TimerEvent: {}
+[11.790232] (ur3e_ros_data) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__functions.c.o\x1b[0m\n'}
+[11.888003] (-) TimerEvent: {}
+[11.991256] (-) TimerEvent: {}
+[12.092901] (-) TimerEvent: {}
+[12.195852] (-) TimerEvent: {}
+[12.305604] (-) TimerEvent: {}
+[12.316354] (ur3e_ros_data) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__type_support.c.o\x1b[0m\n'}
+[12.407634] (-) TimerEvent: {}
+[12.441121] (ur3e_ros_data) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libur3e_ros_data__rosidl_generator_c.so\x1b[0m\n'}
+[12.508536] (-) TimerEvent: {}
+[12.575827] (ur3e_ros_data) StdoutLine: {'line': b'[ 22%] Built target ur3e_ros_data__rosidl_generator_c\n'}
+[12.610538] (-) TimerEvent: {}
+[12.711827] (-) TimerEvent: {}
+[12.813323] (-) TimerEvent: {}
+[12.916073] (-) TimerEvent: {}
+[13.018526] (-) TimerEvent: {}
+[13.120017] (-) TimerEvent: {}
+[13.221909] (-) TimerEvent: {}
+[13.323887] (-) TimerEvent: {}
+[13.385725] (ur3e_ros_data) StdoutLine: {'line': b'running egg_info\n'}
+[13.391091] (ur3e_ros_data) StdoutLine: {'line': b'writing ur3e_ros_data.egg-info/PKG-INFO\n'}
+[13.393158] (ur3e_ros_data) StdoutLine: {'line': b'writing dependency_links to ur3e_ros_data.egg-info/dependency_links.txt\n'}
+[13.394906] (ur3e_ros_data) StdoutLine: {'line': b'writing top-level names to ur3e_ros_data.egg-info/top_level.txt\n'}
+[13.402973] (ur3e_ros_data) StdoutLine: {'line': b"reading manifest file 'ur3e_ros_data.egg-info/SOURCES.txt'\n"}
+[13.403511] (ur3e_ros_data) StdoutLine: {'line': b"writing manifest file 'ur3e_ros_data.egg-info/SOURCES.txt'\n"}
+[13.427673] (-) TimerEvent: {}
+[13.478880] (ur3e_ros_data) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_ur3e_ros_data_egg\n'}
+[13.508899] (ur3e_ros_data) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.540195] (-) TimerEvent: {}
+[13.648914] (-) TimerEvent: {}
+[13.757925] (-) TimerEvent: {}
+[13.865871] (-) TimerEvent: {}
+[13.973394] (-) TimerEvent: {}
+[14.081124] (-) TimerEvent: {}
+[14.182802] (-) TimerEvent: {}
+[14.294888] (-) TimerEvent: {}
+[14.397319] (-) TimerEvent: {}
+[14.497829] (-) TimerEvent: {}
+[14.517766] (ur3e_ros_data) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur3e_ros_data/msg/joint_pose__type_support.cpp.o\x1b[0m\n'}
+[14.599414] (-) TimerEvent: {}
+[14.701070] (-) TimerEvent: {}
+[14.801965] (-) TimerEvent: {}
+[14.902552] (-) TimerEvent: {}
+[15.004010] (-) TimerEvent: {}
+[15.106163] (-) TimerEvent: {}
+[15.207119] (-) TimerEvent: {}
+[15.308383] (-) TimerEvent: {}
+[15.411877] (-) TimerEvent: {}
+[15.513247] (-) TimerEvent: {}
+[15.614103] (-) TimerEvent: {}
+[15.715417] (-) TimerEvent: {}
+[15.821480] (-) TimerEvent: {}
+[15.856279] (ur3e_ros_data) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur3e_ros_data/action/move_j__type_support.cpp.o\x1b[0m\n'}
+[15.928138] (-) TimerEvent: {}
+[16.029334] (-) TimerEvent: {}
+[16.131236] (-) TimerEvent: {}
+[16.232885] (-) TimerEvent: {}
+[16.334344] (-) TimerEvent: {}
+[16.435452] (-) TimerEvent: {}
+[16.536658] (-) TimerEvent: {}
+[16.641115] (-) TimerEvent: {}
+[16.742323] (-) TimerEvent: {}
+[16.849423] (-) TimerEvent: {}
+[16.956356] (-) TimerEvent: {}
+[17.063787] (-) TimerEvent: {}
+[17.170829] (-) TimerEvent: {}
+[17.278464] (-) TimerEvent: {}
+[17.380988] (-) TimerEvent: {}
+[17.493647] (-) TimerEvent: {}
+[17.600152] (-) TimerEvent: {}
+[17.709275] (-) TimerEvent: {}
+[17.816540] (-) TimerEvent: {}
+[17.918150] (-) TimerEvent: {}
+[18.031744] (-) TimerEvent: {}
+[18.138736] (-) TimerEvent: {}
+[18.247176] (-) TimerEvent: {}
+[18.357052] (-) TimerEvent: {}
+[18.465651] (-) TimerEvent: {}
+[18.567787] (-) TimerEvent: {}
+[18.667022] (ur3e_ros_data) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.667876] (-) TimerEvent: {}
+[18.773540] (-) TimerEvent: {}
+[18.876504] (-) TimerEvent: {}
+[18.978934] (-) TimerEvent: {}
+[19.016617] (ur3e_ros_data) StdoutLine: {'line': b'[ 31%] Built target ur3e_ros_data__rosidl_typesupport_cpp\n'}
+[19.047855] (ur3e_ros_data) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.079143] (-) TimerEvent: {}
+[19.181089] (-) TimerEvent: {}
+[19.283664] (-) TimerEvent: {}
+[19.386140] (-) TimerEvent: {}
+[19.493679] (-) TimerEvent: {}
+[19.608530] (-) TimerEvent: {}
+[19.712770] (-) TimerEvent: {}
+[19.825198] (-) TimerEvent: {}
+[19.928695] (-) TimerEvent: {}
+[20.041655] (-) TimerEvent: {}
+[20.143085] (-) TimerEvent: {}
+[20.255791] (-) TimerEvent: {}
+[20.365144] (-) TimerEvent: {}
+[20.473894] (-) TimerEvent: {}
+[20.517394] (ur3e_ros_data) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur3e_ros_data/msg/detail/joint_pose__type_support_c.cpp.o\x1b[0m\n'}
+[20.576072] (-) TimerEvent: {}
+[20.677863] (-) TimerEvent: {}
+[20.781114] (-) TimerEvent: {}
+[20.886773] (-) TimerEvent: {}
+[20.995121] (-) TimerEvent: {}
+[21.104402] (-) TimerEvent: {}
+[21.209978] (-) TimerEvent: {}
+[21.319866] (-) TimerEvent: {}
+[21.428327] (-) TimerEvent: {}
+[21.536077] (-) TimerEvent: {}
+[21.598532] (ur3e_ros_data) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur3e_ros_data/action/detail/move_j__type_support_c.cpp.o\x1b[0m\n'}
+[21.637312] (-) TimerEvent: {}
+[21.741619] (-) TimerEvent: {}
+[21.843535] (-) TimerEvent: {}
+[21.944162] (-) TimerEvent: {}
+[22.045658] (-) TimerEvent: {}
+[22.153975] (-) TimerEvent: {}
+[22.261855] (-) TimerEvent: {}
+[22.369301] (-) TimerEvent: {}
+[22.477579] (-) TimerEvent: {}
+[22.584469] (-) TimerEvent: {}
+[22.692156] (-) TimerEvent: {}
+[22.796543] (-) TimerEvent: {}
+[22.907128] (-) TimerEvent: {}
+[23.012376] (-) TimerEvent: {}
+[23.013134] (ur3e_ros_data) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.112504] (-) TimerEvent: {}
+[23.214332] (-) TimerEvent: {}
+[23.262027] (ur3e_ros_data) StdoutLine: {'line': b'[ 40%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_c\n'}
+[23.291565] (ur3e_ros_data) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.324990] (-) TimerEvent: {}
+[23.427991] (-) TimerEvent: {}
+[23.532840] (-) TimerEvent: {}
+[23.633397] (-) TimerEvent: {}
+[23.740599] (-) TimerEvent: {}
+[23.842048] (-) TimerEvent: {}
+[23.943124] (-) TimerEvent: {}
+[24.044869] (-) TimerEvent: {}
+[24.157079] (-) TimerEvent: {}
+[24.259689] (-) TimerEvent: {}
+[24.365341] (-) TimerEvent: {}
+[24.466513] (-) TimerEvent: {}
+[24.569706] (-) TimerEvent: {}
+[24.680764] (-) TimerEvent: {}
+[24.745297] (ur3e_ros_data) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur3e_ros_data/msg/detail/joint_pose__type_support.c.o\x1b[0m\n'}
+[24.784467] (-) TimerEvent: {}
+[24.885549] (-) TimerEvent: {}
+[24.955525] (ur3e_ros_data) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur3e_ros_data/action/detail/move_j__type_support.c.o\x1b[0m\n'}
+[24.990319] (-) TimerEvent: {}
+[25.092007] (-) TimerEvent: {}
+[25.193915] (-) TimerEvent: {}
+[25.265692] (ur3e_ros_data) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libur3e_ros_data__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[25.295050] (-) TimerEvent: {}
+[25.394196] (ur3e_ros_data) StdoutLine: {'line': b'[ 50%] Built target ur3e_ros_data__rosidl_typesupport_introspection_c\n'}
+[25.396700] (-) TimerEvent: {}
+[25.429558] (ur3e_ros_data) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.500317] (-) TimerEvent: {}
+[25.607828] (-) TimerEvent: {}
+[25.716894] (-) TimerEvent: {}
+[25.818807] (-) TimerEvent: {}
+[25.921256] (-) TimerEvent: {}
+[26.022357] (-) TimerEvent: {}
+[26.124167] (-) TimerEvent: {}
+[26.229211] (-) TimerEvent: {}
+[26.331948] (-) TimerEvent: {}
+[26.437020] (-) TimerEvent: {}
+[26.437821] (ur3e_ros_data) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o\x1b[0m\n'}
+[26.538327] (-) TimerEvent: {}
+[26.645167] (-) TimerEvent: {}
+[26.669717] (ur3e_ros_data) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o\x1b[0m\n'}
+[26.745970] (-) TimerEvent: {}
+[26.849647] (-) TimerEvent: {}
+[26.928134] (ur3e_ros_data) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_c.so\x1b[0m\n'}
+[26.951491] (-) TimerEvent: {}
+[27.058157] (-) TimerEvent: {}
+[27.101150] (ur3e_ros_data) StdoutLine: {'line': b'[ 59%] Built target ur3e_ros_data__rosidl_typesupport_c\n'}
+[27.139354] (ur3e_ros_data) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.158619] (-) TimerEvent: {}
+[27.260600] (-) TimerEvent: {}
+[27.361824] (-) TimerEvent: {}
+[27.463677] (-) TimerEvent: {}
+[27.565429] (-) TimerEvent: {}
+[27.666876] (-) TimerEvent: {}
+[27.769952] (-) TimerEvent: {}
+[27.870933] (-) TimerEvent: {}
+[27.973318] (-) TimerEvent: {}
+[28.074441] (-) TimerEvent: {}
+[28.176430] (-) TimerEvent: {}
+[28.278120] (-) TimerEvent: {}
+[28.379851] (-) TimerEvent: {}
+[28.481343] (-) TimerEvent: {}
+[28.584155] (-) TimerEvent: {}
+[28.694136] (-) TimerEvent: {}
+[28.729266] (ur3e_ros_data) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur3e_ros_data/msg/detail/dds_fastrtps/joint_pose__type_support.cpp.o\x1b[0m\n'}
+[28.799279] (-) TimerEvent: {}
+[28.900926] (-) TimerEvent: {}
+[29.003324] (-) TimerEvent: {}
+[29.104996] (-) TimerEvent: {}
+[29.207578] (-) TimerEvent: {}
+[29.309003] (-) TimerEvent: {}
+[29.411468] (-) TimerEvent: {}
+[29.513039] (-) TimerEvent: {}
+[29.618752] (-) TimerEvent: {}
+[29.721112] (-) TimerEvent: {}
+[29.823533] (-) TimerEvent: {}
+[29.925838] (-) TimerEvent: {}
+[30.027818] (-) TimerEvent: {}
+[30.129458] (-) TimerEvent: {}
+[30.231567] (-) TimerEvent: {}
+[30.333512] (-) TimerEvent: {}
+[30.440398] (-) TimerEvent: {}
+[30.547467] (-) TimerEvent: {}
+[30.573621] (ur3e_ros_data) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur3e_ros_data/action/detail/dds_fastrtps/move_j__type_support.cpp.o\x1b[0m\n'}
+[30.647841] (-) TimerEvent: {}
+[30.753601] (-) TimerEvent: {}
+[30.855386] (-) TimerEvent: {}
+[30.956737] (-) TimerEvent: {}
+[31.058257] (-) TimerEvent: {}
+[31.160595] (-) TimerEvent: {}
+[31.262268] (-) TimerEvent: {}
+[31.364717] (-) TimerEvent: {}
+[31.467251] (-) TimerEvent: {}
+[31.569980] (-) TimerEvent: {}
+[31.671208] (-) TimerEvent: {}
+[31.772790] (-) TimerEvent: {}
+[31.873818] (-) TimerEvent: {}
+[31.974949] (-) TimerEvent: {}
+[32.076009] (-) TimerEvent: {}
+[32.176759] (-) TimerEvent: {}
+[32.281358] (-) TimerEvent: {}
+[32.382913] (-) TimerEvent: {}
+[32.484439] (-) TimerEvent: {}
+[32.585659] (-) TimerEvent: {}
+[32.686981] (-) TimerEvent: {}
+[32.788129] (-) TimerEvent: {}
+[32.891399] (-) TimerEvent: {}
+[32.993485] (-) TimerEvent: {}
+[33.094656] (-) TimerEvent: {}
+[33.196372] (-) TimerEvent: {}
+[33.298294] (-) TimerEvent: {}
+[33.404155] (-) TimerEvent: {}
+[33.515724] (-) TimerEvent: {}
+[33.617848] (-) TimerEvent: {}
+[33.723664] (-) TimerEvent: {}
+[33.813650] (ur3e_ros_data) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[33.824144] (-) TimerEvent: {}
+[33.929140] (-) TimerEvent: {}
+[34.039187] (-) TimerEvent: {}
+[34.143266] (-) TimerEvent: {}
+[34.210056] (ur3e_ros_data) StdoutLine: {'line': b'[ 68%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_cpp\n'}
+[34.243383] (-) TimerEvent: {}
+[34.243746] (ur3e_ros_data) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[34.343716] (-) TimerEvent: {}
+[34.445140] (-) TimerEvent: {}
+[34.547172] (-) TimerEvent: {}
+[34.657358] (-) TimerEvent: {}
+[34.762753] (-) TimerEvent: {}
+[34.871515] (-) TimerEvent: {}
+[34.980415] (-) TimerEvent: {}
+[35.088901] (-) TimerEvent: {}
+[35.197536] (-) TimerEvent: {}
+[35.304809] (-) TimerEvent: {}
+[35.375791] (ur3e_ros_data) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur3e_ros_data/msg/detail/joint_pose__type_support.cpp.o\x1b[0m\n'}
+[35.405463] (-) TimerEvent: {}
+[35.521232] (-) TimerEvent: {}
+[35.625638] (-) TimerEvent: {}
+[35.734450] (-) TimerEvent: {}
+[35.845744] (-) TimerEvent: {}
+[35.949607] (-) TimerEvent: {}
+[36.058722] (-) TimerEvent: {}
+[36.181026] (-) TimerEvent: {}
+[36.287883] (-) TimerEvent: {}
+[36.395963] (-) TimerEvent: {}
+[36.503689] (-) TimerEvent: {}
+[36.604456] (-) TimerEvent: {}
+[36.651438] (ur3e_ros_data) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur3e_ros_data/action/detail/move_j__type_support.cpp.o\x1b[0m\n'}
+[36.719386] (-) TimerEvent: {}
+[36.826714] (-) TimerEvent: {}
+[36.933871] (-) TimerEvent: {}
+[37.034883] (-) TimerEvent: {}
+[37.137452] (-) TimerEvent: {}
+[37.239653] (-) TimerEvent: {}
+[37.340902] (-) TimerEvent: {}
+[37.456310] (-) TimerEvent: {}
+[37.565693] (-) TimerEvent: {}
+[37.673737] (-) TimerEvent: {}
+[37.780454] (-) TimerEvent: {}
+[37.886670] (-) TimerEvent: {}
+[37.990079] (-) TimerEvent: {}
+[38.100684] (-) TimerEvent: {}
+[38.208393] (-) TimerEvent: {}
+[38.315780] (-) TimerEvent: {}
+[38.425275] (-) TimerEvent: {}
+[38.532451] (-) TimerEvent: {}
+[38.638638] (-) TimerEvent: {}
+[38.745166] (-) TimerEvent: {}
+[38.853317] (-) TimerEvent: {}
+[38.961455] (-) TimerEvent: {}
+[39.069870] (-) TimerEvent: {}
+[39.173735] (-) TimerEvent: {}
+[39.286278] (-) TimerEvent: {}
+[39.394005] (-) TimerEvent: {}
+[39.494723] (-) TimerEvent: {}
+[39.530694] (ur3e_ros_data) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[39.595246] (-) TimerEvent: {}
+[39.701333] (-) TimerEvent: {}
+[39.753805] (ur3e_ros_data) StdoutLine: {'line': b'[ 77%] Built target ur3e_ros_data__rosidl_typesupport_introspection_cpp\n'}
+[39.804297] (-) TimerEvent: {}
+[39.844344] (ur3e_ros_data) StdoutLine: {'line': b'[ 77%] Built target ur3e_ros_data\n'}
+[39.904987] (-) TimerEvent: {}
+[39.918915] (ur3e_ros_data) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[40.005346] (-) TimerEvent: {}
+[40.107064] (-) TimerEvent: {}
+[40.209646] (-) TimerEvent: {}
+[40.310783] (-) TimerEvent: {}
+[40.413033] (-) TimerEvent: {}
+[40.514434] (-) TimerEvent: {}
+[40.620888] (-) TimerEvent: {}
+[40.721796] (-) TimerEvent: {}
+[40.825846] (-) TimerEvent: {}
+[40.927699] (-) TimerEvent: {}
+[41.029253] (-) TimerEvent: {}
+[41.132564] (-) TimerEvent: {}
+[41.238011] (-) TimerEvent: {}
+[41.338699] (-) TimerEvent: {}
+[41.443672] (-) TimerEvent: {}
+[41.545537] (-) TimerEvent: {}
+[41.646240] (-) TimerEvent: {}
+[41.747617] (-) TimerEvent: {}
+[41.852816] (-) TimerEvent: {}
+[41.955483] (-) TimerEvent: {}
+[42.060377] (-) TimerEvent: {}
+[42.162253] (-) TimerEvent: {}
+[42.264091] (-) TimerEvent: {}
+[42.366723] (-) TimerEvent: {}
+[42.468222] (-) TimerEvent: {}
+[42.569999] (-) TimerEvent: {}
+[42.670951] (-) TimerEvent: {}
+[42.773047] (-) TimerEvent: {}
+[42.874977] (-) TimerEvent: {}
+[42.897412] (ur3e_ros_data) StdoutLine: {'line': b'[ 79%] Built target ur3e_ros_data__py\n'}
+[42.970245] (ur3e_ros_data) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c.o\x1b[0m\n'}
+[42.975199] (-) TimerEvent: {}
+[43.075962] (-) TimerEvent: {}
+[43.181060] (-) TimerEvent: {}
+[43.265421] (ur3e_ros_data) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c.o\x1b[0m\n'}
+[43.290590] (-) TimerEvent: {}
+[43.396930] (-) TimerEvent: {}
+[43.504123] (-) TimerEvent: {}
+[43.607179] (-) TimerEvent: {}
+[43.708481] (-) TimerEvent: {}
+[43.823710] (-) TimerEvent: {}
+[43.913128] (ur3e_ros_data) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so\x1b[0m\n'}
+[43.931278] (-) TimerEvent: {}
+[44.032181] (-) TimerEvent: {}
+[44.055359] (ur3e_ros_data) StdoutLine: {'line': b'[ 86%] Built target ur3e_ros_data__rosidl_generator_py\n'}
+[44.128018] (ur3e_ros_data) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[44.133957] (-) TimerEvent: {}
+[44.241628] (-) TimerEvent: {}
+[44.349703] (-) TimerEvent: {}
+[44.458883] (-) TimerEvent: {}
+[44.554416] (ur3e_ros_data) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[44.568355] (-) TimerEvent: {}
+[44.677179] (-) TimerEvent: {}
+[44.730795] (ur3e_ros_data) StdoutLine: {'line': b'[ 90%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_c__pyext\n'}
+[44.778209] (-) TimerEvent: {}
+[44.832753] (ur3e_ros_data) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[44.878738] (-) TimerEvent: {}
+[44.984054] (-) TimerEvent: {}
+[45.093512] (-) TimerEvent: {}
+[45.202776] (-) TimerEvent: {}
+[45.304148] (-) TimerEvent: {}
+[45.335631] (ur3e_ros_data) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[45.417389] (-) TimerEvent: {}
+[45.483758] (ur3e_ros_data) StdoutLine: {'line': b'[ 95%] Built target ur3e_ros_data__rosidl_typesupport_introspection_c__pyext\n'}
+[45.520194] (-) TimerEvent: {}
+[45.560765] (ur3e_ros_data) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[45.621714] (-) TimerEvent: {}
+[45.729830] (-) TimerEvent: {}
+[45.832027] (-) TimerEvent: {}
+[45.933146] (-) TimerEvent: {}
+[46.026798] (ur3e_ros_data) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[46.033701] (-) TimerEvent: {}
+[46.144593] (-) TimerEvent: {}
+[46.179946] (ur3e_ros_data) StdoutLine: {'line': b'[100%] Built target ur3e_ros_data__rosidl_typesupport_c__pyext\n'}
+[46.211978] (ur3e_ros_data) CommandEnded: {'returncode': 0}
+[46.245989] (-) TimerEvent: {}
+[46.349228] (-) TimerEvent: {}
+[46.450399] (-) TimerEvent: {}
+[46.551878] (-) TimerEvent: {}
+[46.573702] (ur3e_ros_data) JobProgress: {'identifier': 'ur3e_ros_data', 'progress': 'install'}
+[46.574794] (ur3e_ros_data) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/harry/ur_ws/build/ur3e_ros_data'], 'cwd': '/home/harry/ur_ws/build/ur3e_ros_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'harry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry:@/tmp/.ICE-unix/1412,unix/harry:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d22af697_2c34_4d19_996a_2b30f4cda242'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HD45L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/ur_ws/build/ur3e_ros_data'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[46.606011] (ur3e_ros_data) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.608693] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ament_index/resource_index/rosidl_interfaces/ur3e_ros_data\n'}
+[46.609658] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.json\n'}
+[46.610541] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.json\n'}
+[46.611438] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.612185] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.612713] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.613245] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__functions.c\n'}
+[46.614194] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__functions.h\n'}
+[46.616222] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.h\n'}
+[46.617184] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__struct.h\n'}
+[46.617999] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.c\n'}
+[46.619068] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__description.c\n'}
+[46.619956] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/move_j.h\n'}
+[46.620649] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.621163] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.621639] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__struct.h\n'}
+[46.622171] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__functions.h\n'}
+[46.622697] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.h\n'}
+[46.623204] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__description.c\n'}
+[46.623728] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.c\n'}
+[46.624272] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__functions.c\n'}
+[46.624839] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_generator_c__visibility_control.h\n'}
+[46.625479] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/joint_pose.h\n'}
+[46.626263] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/library_path.sh\n'}
+[46.626988] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/library_path.dsv\n'}
+[46.627779] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_c.so\n'}
+[46.629567] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_c.so" to ""\n'}
+[46.630094] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.630478] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.630836] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.631215] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_fastrtps_c.h\n'}
+[46.631760] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.632155] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.632536] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[46.633074] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[46.634291] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_c.so\n'}
+[46.635551] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[46.636049] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.636442] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.636810] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.637213] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_introspection_c.h\n'}
+[46.637777] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.c\n'}
+[46.639045] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.639594] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.640141] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h\n'}
+[46.640924] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.c\n'}
+[46.641588] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.642382] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_c.so\n'}
+[46.643674] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_c.so" to ""\n'}
+[46.644196] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_c.so\n'}
+[46.645395] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_c.so" to ""\n'}
+[46.645944] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.646410] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.646822] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.647195] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__builder.hpp\n'}
+[46.647756] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__struct.hpp\n'}
+[46.648594] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__traits.hpp\n'}
+[46.649293] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/move_j.hpp\n'}
+[46.649819] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.650277] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.651103] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__builder.hpp\n'}
+[46.651911] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__traits.hpp\n'}
+[46.652114] (-) TimerEvent: {}
+[46.652828] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__struct.hpp\n'}
+[46.653453] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/joint_pose.hpp\n'}
+[46.654137] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.654566] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.654936] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.656116] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/dds_fastrtps\n'}
+[46.656613] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.658611] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.659054] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.659604] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/dds_fastrtps\n'}
+[46.660054] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.660562] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.661278] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so\n'}
+[46.662911] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[46.663360] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data\n'}
+[46.663773] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action\n'}
+[46.664111] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail\n'}
+[46.664626] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.665148] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.cpp\n'}
+[46.665826] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg\n'}
+[46.666346] (ur3e_ros_data) StdoutLine: {'line': b'-- Up-to-date: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail\n'}
+[46.666958] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.667528] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.cpp\n'}
+[46.668295] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_cpp.so\n'}
+[46.669904] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[46.670505] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_cpp.so\n'}
+[46.671914] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_cpp.so" to ""\n'}
+[46.672434] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/pythonpath.sh\n'}
+[46.673051] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/pythonpath.dsv\n'}
+[46.673699] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info\n'}
+[46.674268] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[46.674839] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[46.675324] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[46.675795] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[46.676433] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data\n'}
+[46.676927] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.677535] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[46.678175] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.678818] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/__init__.py\n'}
+[46.679287] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.679895] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so\n'}
+[46.680499] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action\n'}
+[46.682014] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j.py\n'}
+[46.682866] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/__init__.py\n'}
+[46.683387] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j_s.c\n'}
+[46.683981] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[46.684702] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_c.c\n'}
+[46.685332] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg\n'}
+[46.685772] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose_s.c\n'}
+[46.686263] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/__init__.py\n'}
+[46.688045] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose.py\n'}
+[46.753181] (-) TimerEvent: {}
+[46.814923] (ur3e_ros_data) StdoutLine: {'line': b"Listing '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data'...\n"}
+[46.815846] (ur3e_ros_data) StdoutLine: {'line': b"Compiling '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/__init__.py'...\n"}
+[46.816618] (ur3e_ros_data) StdoutLine: {'line': b"Listing '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action'...\n"}
+[46.817109] (ur3e_ros_data) StdoutLine: {'line': b"Compiling '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/__init__.py'...\n"}
+[46.817343] (ur3e_ros_data) StdoutLine: {'line': b"Compiling '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j.py'...\n"}
+[46.817551] (ur3e_ros_data) StdoutLine: {'line': b"Listing '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg'...\n"}
+[46.817754] (ur3e_ros_data) StdoutLine: {'line': b"Compiling '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/__init__.py'...\n"}
+[46.818403] (ur3e_ros_data) StdoutLine: {'line': b"Compiling '/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose.py'...\n"}
+[46.834686] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.839360] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[46.839862] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.840461] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[46.844383] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[46.845081] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[46.845324] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_py.so\n'}
+[46.845541] (ur3e_ros_data) StdoutLine: {'line': b'-- Set runtime path of "/home/harry/ur_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_py.so" to ""\n'}
+[46.845749] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.idl\n'}
+[46.845949] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.idl\n'}
+[46.846145] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.msg\n'}
+[46.847495] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.action\n'}
+[46.848953] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ament_index/resource_index/package_run_dependencies/ur3e_ros_data\n'}
+[46.850230] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ament_index/resource_index/parent_prefix_path/ur3e_ros_data\n'}
+[46.851107] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/ament_prefix_path.sh\n'}
+[46.852091] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/ament_prefix_path.dsv\n'}
+[46.853232] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/path.sh\n'}
+[46.853507] (-) TimerEvent: {}
+[46.854980] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/path.dsv\n'}
+[46.855954] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.bash\n'}
+[46.856863] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.sh\n'}
+[46.857769] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.zsh\n'}
+[46.858635] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.dsv\n'}
+[46.859459] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.dsv\n'}
+[46.860555] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ament_index/resource_index/packages/ur3e_ros_data\n'}
+[46.861578] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cExport.cmake\n'}
+[46.862467] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cExport-noconfig.cmake\n'}
+[46.868171] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[46.871526] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[46.872707] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cExport.cmake\n'}
+[46.873904] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[46.874875] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cExport.cmake\n'}
+[46.875837] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[46.876803] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cppExport.cmake\n'}
+[46.879468] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[46.880455] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[46.881613] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[46.882557] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[46.883964] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cppExport.cmake\n'}
+[46.885088] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[46.886185] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_pyExport.cmake\n'}
+[46.887158] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_pyExport-noconfig.cmake\n'}
+[46.888027] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake-extras.cmake\n'}
+[46.889071] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[46.890036] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[46.890914] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[46.891880] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[46.893008] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[46.893952] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[46.894976] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_dataConfig.cmake\n'}
+[46.895812] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_dataConfig-version.cmake\n'}
+[46.897440] (ur3e_ros_data) StdoutLine: {'line': b'-- Installing: /home/harry/ur_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.xml\n'}
+[46.916319] (ur3e_ros_data) CommandEnded: {'returncode': 0}
+[46.954560] (-) TimerEvent: {}
+[47.056346] (-) TimerEvent: {}
+[47.157068] (-) TimerEvent: {}
+[47.258982] (-) TimerEvent: {}
+[47.362556] (-) TimerEvent: {}
+[47.466356] (-) TimerEvent: {}
+[47.511008] (ur3e_ros_data) JobEnded: {'identifier': 'ur3e_ros_data', 'rc': 0}
+[47.517034] (-) EventReactorShutdown: {}

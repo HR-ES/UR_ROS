@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ur3e_ros_action/ur3e_ros_action.egg-info
+writing ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/dependency_links.txt
+writing entry points to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/entry_points.txt
+writing requirements to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/requires.txt
+writing top-level names to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/top_level.txt
+writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/harry/ur_ws/build/ur3e_ros_action/build
+creating /home/harry/ur_ws/build/ur3e_ros_action/build/lib
+creating /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action
+copying ur3e_ros_action/moveJ_action.py -> /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action
+copying ur3e_ros_action/__init__.py -> /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action
+running install
+running install_lib
+creating /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action
+copying /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action/moveJ_action.py -> /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action
+copying /home/harry/ur_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action/__init__.py -> /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action
+byte-compiling /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action/moveJ_action.py to moveJ_action.cpython-310.pyc
+byte-compiling /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index
+creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index
+creating /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index/packages
+copying resource/ur3e_ros_action -> /home/harry/ur_ws/install/ur3e_ros_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/harry/ur_ws/install/ur3e_ros_action/share/ur3e_ros_action
+running install_egg_info
+Copying ../../build/ur3e_ros_action/ur3e_ros_action.egg-info to /home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info
+running install_scripts
+Installing moveJ script to /home/harry/ur_ws/install/ur3e_ros_action/lib/ur3e_ros_action
+writing list of installed files to '/home/harry/ur_ws/build/ur3e_ros_action/install.log'

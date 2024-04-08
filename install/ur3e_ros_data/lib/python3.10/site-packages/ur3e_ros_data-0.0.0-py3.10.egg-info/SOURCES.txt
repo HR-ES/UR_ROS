@@ -1,0 +1,6 @@
+setup.py
+ur3e_ros_data/__init__.py
+ur3e_ros_data.egg-info/PKG-INFO
+ur3e_ros_data.egg-info/SOURCES.txt
+ur3e_ros_data.egg-info/dependency_links.txt
+ur3e_ros_data.egg-info/top_level.txt
