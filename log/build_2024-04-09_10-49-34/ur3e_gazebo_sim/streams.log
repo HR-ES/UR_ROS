@@ -1,0 +1,55 @@
+[0.074s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_gazebo_sim -- -j2 -l2
+[0.273s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_gazebo_sim -- -j2 -l2
+[0.540s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_gazebo_sim
+[0.620s] -- Install configuration: ""
+[0.622s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config
+[0.625s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/joint_limits.yaml
+[0.627s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/visual_parameters.yaml
+[0.631s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/default_kinematics.yaml
+[0.632s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/physical_parameters.yaml
+[0.634s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/ur3e_controller.yaml
+[0.637s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/config/initial_positions.yaml
+[0.641s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/launch
+[0.641s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/launch/ur3e_sim.launch.py
+[0.642s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf
+[0.642s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_ros2_control.xacro
+[0.644s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e.urdf.xacro
+[0.644s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_common.xacro
+[0.647s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_macro.urdf.xacro
+[0.647s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_transmission.xacro
+[0.649s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds
+[0.651s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e.world
+[0.659s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e_2.world
+[0.660s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes
+[0.660s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual
+[0.660s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist1.dae
+[0.661s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/base.dae
+[0.661s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/shoulder.dae
+[0.661s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/forearm.dae
+[0.661s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/upperarm.dae
+[0.662s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist3.dae
+[0.662s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/visual/wrist2.dae
+[0.672s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision
+[0.673s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/shoulder.stl
+[0.673s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist3.stl
+[0.673s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist1.stl
+[0.673s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/forearm.stl
+[0.673s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/wrist2.stl
+[0.674s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/upperarm.stl
+[0.674s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/meshes/collision/base.stl
+[0.674s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/ur3e_gazebo_sim
+[0.674s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/ur3e_gazebo_sim
+[0.675s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/ament_prefix_path.sh
+[0.675s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/ament_prefix_path.dsv
+[0.675s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/path.sh
+[0.675s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/environment/path.dsv
+[0.676s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.bash
+[0.676s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.sh
+[0.676s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.zsh
+[0.676s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/local_setup.dsv
+[0.676s] -- Installing: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.dsv
+[0.677s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ament_index/resource_index/packages/ur3e_gazebo_sim
+[0.677s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/cmake/ur3e_gazebo_simConfig.cmake
+[0.677s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/cmake/ur3e_gazebo_simConfig-version.cmake
+[0.677s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.xml
+[0.707s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_gazebo_sim

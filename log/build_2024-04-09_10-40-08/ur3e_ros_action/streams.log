@@ -1,0 +1,21 @@
+[2.536s] Invoking command in '/home/harry/ur3e_ws/src/ur3e_ros_action': PYTHONPATH=/home/harry/ur3e_ws/build/ur3e_ros_action/prefix_override:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3e_ros_action build --build-base /home/harry/ur3e_ws/build/ur3e_ros_action/build install --record /home/harry/ur3e_ws/build/ur3e_ros_action/install.log --single-version-externally-managed install_data
+[3.525s] running egg_info
+[3.528s] writing ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/PKG-INFO
+[3.533s] writing dependency_links to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/dependency_links.txt
+[3.536s] writing entry points to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/entry_points.txt
+[3.537s] writing requirements to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/requires.txt
+[3.538s] writing top-level names to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/top_level.txt
+[3.544s] reading manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+[3.547s] writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+[3.549s] running build
+[3.549s] running build_py
+[3.551s] running install
+[3.552s] running install_lib
+[3.556s] running install_data
+[3.557s] running install_egg_info
+[3.567s] removing '/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info' (and everything under it)
+[3.568s] Copying ../../build/ur3e_ros_action/ur3e_ros_action.egg-info to /home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info
+[3.574s] running install_scripts
+[3.648s] Installing moveJ script to /home/harry/ur3e_ws/install/ur3e_ros_action/lib/ur3e_ros_action
+[3.649s] writing list of installed files to '/home/harry/ur3e_ws/build/ur3e_ros_action/install.log'
+[3.745s] Invoked command in '/home/harry/ur3e_ws/src/ur3e_ros_action' returned '0': PYTHONPATH=/home/harry/ur3e_ws/build/ur3e_ros_action/prefix_override:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3e_ros_action build --build-base /home/harry/ur3e_ws/build/ur3e_ros_action/build install --record /home/harry/ur3e_ws/build/ur3e_ros_action/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:[m[K In member function ‘[01m[Kvoid MoveJ_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveJ> >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:82:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KJointGoal[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   82 |             auto [01;35m[KJointGoal[m[K = goal->goal;
+      |                  [01;35m[K^~~~~~~~~[m[K

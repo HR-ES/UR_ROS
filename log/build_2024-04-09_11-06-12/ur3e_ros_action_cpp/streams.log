@@ -1,0 +1,11 @@
+[0.115s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[0.511s] [ 50%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
+[1.252s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6:10:[m[K [01;31m[Kfatal error: [m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h: Permission denied
+[1.257s]     6 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+[1.257s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.258s] compilation terminated.
+[1.266s] gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1
+[1.283s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveJ_action.dir/all] Error 2
+[1.284s] gmake: *** [Makefile:146: all] Error 2
+[1.290s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
