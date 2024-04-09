@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harry/ur_ws/src/ur3e_ros_data
+CMAKE_SOURCE_DIR = /home/harry/ur3e_ws/src/ur3e_ros_data
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harry/ur_ws/build/ur3e_ros_data
+CMAKE_BINARY_DIR = /home/harry/ur3e_ws/build/ur3e_ros_data
 
 # Utility rule file for ament_cmake_python_copy_ur3e_ros_data.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_ur3e_ros_data:
-	/usr/bin/cmake -E copy_directory /home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data /home/harry/ur_ws/build/ur3e_ros_data/ament_cmake_python/ur3e_ros_data/ur3e_ros_data
+	/usr/bin/cmake -E copy_directory /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data/ament_cmake_python/ur3e_ros_data/ur3e_ros_data
 
 ament_cmake_python_copy_ur3e_ros_data: CMakeFiles/ament_cmake_python_copy_ur3e_ros_data
 ament_cmake_python_copy_ur3e_ros_data: CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/depend:
-	cd /home/harry/ur_ws/build/ur3e_ros_data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/ur_ws/src/ur3e_ros_data /home/harry/ur_ws/src/ur3e_ros_data /home/harry/ur_ws/build/ur3e_ros_data /home/harry/ur_ws/build/ur3e_ros_data /home/harry/ur_ws/build/ur3e_ros_data/CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/harry/ur3e_ws/build/ur3e_ros_data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/ur3e_ws/src/ur3e_ros_data /home/harry/ur3e_ws/src/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_ur3e_ros_data.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/harry/ur_ws/build/ur3e_ros_data/ur3e_ros_data__py
+# Install script for directory: /home/harry/ur3e_ws/build/ur3e_ros_data/ur3e_ros_data__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/harry/ur_ws/install/ur3e_ros_data")
+  set(CMAKE_INSTALL_PREFIX "/home/harry/ur3e_ws/install/ur3e_ros_data")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

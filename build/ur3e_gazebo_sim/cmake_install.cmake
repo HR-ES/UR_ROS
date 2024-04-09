@@ -1,8 +1,8 @@
-# Install script for directory: /home/harry/ur_ws/src/ur3e_gazebo_sim
+# Install script for directory: /home/harry/ur3e_ws/src/ur3e_gazebo_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/harry/ur_ws/install/ur3e_gazebo_sim")
+  set(CMAKE_INSTALL_PREFIX "/home/harry/ur3e_ws/install/ur3e_gazebo_sim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,20 +44,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE DIRECTORY FILES
-    "/home/harry/ur_ws/src/ur3e_gazebo_sim/config"
-    "/home/harry/ur_ws/src/ur3e_gazebo_sim/launch"
-    "/home/harry/ur_ws/src/ur3e_gazebo_sim/urdf"
-    "/home/harry/ur_ws/src/ur3e_gazebo_sim/worlds"
-    "/home/harry/ur_ws/src/ur3e_gazebo_sim/meshes"
+    "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/config"
+    "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/launch"
+    "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/urdf"
+    "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/worlds"
+    "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/meshes"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur3e_gazebo_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur3e_gazebo_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur3e_gazebo_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur3e_gazebo_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim/environment" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim/environment" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,42 +73,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim/environment" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim/environment" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/packages/ur3e_gazebo_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_index/share/ament_index/resource_index/packages/ur3e_gazebo_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim/cmake" TYPE FILE FILES
-    "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_core/ur3e_gazebo_simConfig.cmake"
-    "/home/harry/ur_ws/build/ur3e_gazebo_sim/ament_cmake_core/ur3e_gazebo_simConfig-version.cmake"
+    "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_core/ur3e_gazebo_simConfig.cmake"
+    "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/ament_cmake_core/ur3e_gazebo_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur_ws/src/ur3e_gazebo_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_gazebo_sim" TYPE FILE FILES "/home/harry/ur3e_ws/src/ur3e_gazebo_sim/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -119,5 +119,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/harry/ur_ws/build/ur3e_gazebo_sim/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/harry/ur3e_ws/build/ur3e_gazebo_sim/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harry/ur_ws/src/ur3e_gazebo_sim
+CMAKE_SOURCE_DIR = /home/harry/ur3e_ws/src/ur3e_gazebo_sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harry/ur_ws/build/ur3e_gazebo_sim
+CMAKE_BINARY_DIR = /home/harry/ur3e_ws/build/ur3e_gazebo_sim
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/harry/ur_ws/build/ur3e_gazebo_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/ur_ws/src/ur3e_gazebo_sim /home/harry/ur_ws/src/ur3e_gazebo_sim /home/harry/ur_ws/build/ur3e_gazebo_sim /home/harry/ur_ws/build/ur3e_gazebo_sim /home/harry/ur_ws/build/ur3e_gazebo_sim/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/harry/ur3e_ws/build/ur3e_gazebo_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/ur3e_ws/src/ur3e_gazebo_sim /home/harry/ur3e_ws/src/ur3e_gazebo_sim /home/harry/ur3e_ws/build/ur3e_gazebo_sim /home/harry/ur3e_ws/build/ur3e_gazebo_sim /home/harry/ur3e_ws/build/ur3e_gazebo_sim/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

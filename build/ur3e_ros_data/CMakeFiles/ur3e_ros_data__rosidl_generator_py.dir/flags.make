@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"ur3e_ros_data\" -Dur3e_ros_data__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_c -I/home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/iron/include/service_msgs -isystem /opt/ros/iron/include/builtin_interfaces -isystem /opt/ros/iron/include/rosidl_runtime_c -isystem /opt/ros/iron/include/rcutils -isystem /opt/ros/iron/include/rosidl_typesupport_interface -isystem /opt/ros/iron/include/action_msgs -isystem /opt/ros/iron/include/unique_identifier_msgs
+C_INCLUDES = -I/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c -I/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/iron/include/service_msgs -isystem /opt/ros/iron/include/builtin_interfaces -isystem /opt/ros/iron/include/rosidl_runtime_c -isystem /opt/ros/iron/include/rcutils -isystem /opt/ros/iron/include/rosidl_typesupport_interface -isystem /opt/ros/iron/include/action_msgs -isystem /opt/ros/iron/include/unique_identifier_msgs
 
 C_FLAGS = -fPIC -Wall -Wextra
 
