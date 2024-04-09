@@ -80,19 +80,24 @@ class MoveJ_ActionServer : public rclcpp::Node
             rclcpp::Rate loop_rate(0.5);
 
             // Declare goal and access joint goal and speed
+            RCLCPP_INFO(this->get_logger(), "Storing goal variables...");
             const auto goal = goal_handle->get_goal();
             auto JointGoal = goal->goal;
-            auto speed = goal->speed;
+            auto SPEED = goal->speed;
 
+            RCLCPP_INFO(this->get_logger(), "Applying Speed Scaling to MoveIt!2 Interface...");
             // Apply requested speed to moveit speed scaling factor
-            move_group_interface.setMaxVelocityScalingFactor(speed);
+            //move_group_interface.setMaxVelocityScalingFactor(SPEED);
+            RCLCPP_INFO(this->get_logger(), "Applying Accel Scaling to MoveIt!2 Interface...");
             move_group_interface.setMaxAccelerationScalingFactor(1.0);
             //No feedback required
 
+            RCLCPP_INFO(this->get_logger(), "Declaring Result Variable....");
             // Declare result
             auto result = std::make_shared<MoveJ::Result>();
 
             // ---JOINT GOAL LIMITS CHECKING--- //
+            RCLCPP_INFO(this->get_logger(), "Setting variables for joint limits checking...");
             // Joint goal variables
             double j1 = JointGoal.joint1;
             double j2 = JointGoal.joint2;
@@ -123,6 +128,7 @@ class MoveJ_ActionServer : public rclcpp::Node
             double _whichValue = 0.0;
 
             // Check joint goal requests against each joint upper and lower limits
+            RCLCPP_INFO(this->get_logger(), "Starting Joint Limit Checks...");
             if (j1 >= j1_lower && j1 <= j1_upper && _limitError == false)
             {   
                 // Limits are within bounds so just pass
@@ -176,11 +182,11 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichJoint = "Joint 6";
                 _whichValue = j6;
             }
-
+            RCLCPP_INFO(this->get_logger(), "Joint Limit Checking Complete!");
             // If all limits are within bounds
             if (_limitError == false)
             {
-
+                RCLCPP_INFO(this->get_logger(), "Joint Limit Checking Success. All Limits Are Within Bounds...");
             }
             else // If a limit error has been thrown
             {
@@ -201,6 +207,27 @@ class MoveJ_ActionServer : public rclcpp::Node
 int main(int argc, char ** argv)
 {
     rclcpp::init(argc, argv);
+    
+    // Create and spin MoveIt!2 interface node
+    auto m_node_name = "UR3e_MoveJ_Interface";
+    auto const mi2_node = std::make_shared<rclcpp::Node>(
+        m_node_name, rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true));
+    rclcpp::executors::SingleThreadedExecutor executor;
+    executor.add_node(mi2_node);
+    std::thread([&executor]() {executor.spin();}).detach();
+
+    // Create the MoveIt!2 group interface
+    using moveit::planning_interface::MoveGroupInterface;
+    static const std::string UR3E = "UR3e";
+    move_group_interface = MoveGroupInterface(mi2_node, UR3E);
+
+    // Create MoveIt!2 planning scene interface
+    using moveit::planning_interface::PlanningSceneInterface;
+    auto planning_scene_interface = PlanningSceneInterface();
+
+    // Create and spin the action server node
+    auto movej_action_server = std::make_shared<MoveJ_ActionServer>();
+    rclcpp::spin(movej_action_server);
 
     rclcpp::shutdown();
 
