@@ -1,10 +1,10 @@
 {
   "package_name": "ur3e_ros_data",
-  "output_dir": "/home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_cpp/ur3e_ros_data",
+  "output_dir": "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_cpp/ur3e_ros_data",
   "template_dir": "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/harry/ur_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:msg/JointPose.idl",
-    "/home/harry/ur_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:action/MoveJ.idl"
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:msg/JointPose.idl",
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:action/MoveJ.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -32,8 +32,8 @@
     "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/harry/ur_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/msg/JointPose.idl",
-    "/home/harry/ur_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/action/MoveJ.idl",
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/msg/JointPose.idl",
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/action/MoveJ.idl",
     "/opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/iron/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/iron/share/builtin_interfaces/msg/Time.idl",
@@ -44,7 +44,7 @@
     "/opt/ros/iron/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
-    "msg/JointPose.idl:/home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json",
-    "action/MoveJ.idl:/home/harry/ur_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveJ.json"
+    "msg/JointPose.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json",
+    "action/MoveJ.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveJ.json"
   ]
 }

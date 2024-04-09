@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
+#include "ur3e_ros_data/msg/detail/joint_pose__functions.h"
 #include "ur3e_ros_data/msg/detail/joint_pose__type_support.h"
 #include "ur3e_ros_data/msg/detail/joint_pose__struct.h"
-#include "ur3e_ros_data/msg/detail/joint_pose__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"
