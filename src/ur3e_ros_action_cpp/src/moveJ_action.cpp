@@ -129,7 +129,7 @@ class MoveJ_ActionServer : public rclcpp::Node
 
             // Check joint goal requests against each joint upper and lower limits
             RCLCPP_INFO(this->get_logger(), "Starting Joint Limit Checks...");
-            if (j1 >= j1_lower && j1 <= j1_upper && _limitError == false)
+            if (j1 >= j1_lower && j1 <= j1_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -138,7 +138,7 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichValue = j1;
             }
 
-            if (j2 >= j2_lower && j2 <= j2_upper && _limitError == false)
+            if (j2 >= j2_lower && j2 <= j2_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -147,7 +147,7 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichValue = j2;
             }
 
-            if (j3 >= j3_lower && j3 <= j3_upper && _limitError == false)
+            if (j3 >= j3_lower && j3 <= j3_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -156,7 +156,7 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichValue = j3;
             }
 
-            if (j4 >= j4_lower && j4 <= j4_upper && _limitError == false)
+            if (j4 >= j4_lower && j4 <= j4_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -165,7 +165,7 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichValue = j4;
             }
 
-            if (j5 >= j5_lower && j5 <= j5_upper && _limitError == false)
+            if (j5 >= j5_lower && j5 <= j5_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -174,7 +174,7 @@ class MoveJ_ActionServer : public rclcpp::Node
                 _whichValue = j5;
             }
 
-            if (j6 >= j6_lower && j6 <= j6_upper && _limitError == false)
+            if (j6 >= j6_lower && j6 <= j6_upper)
             {   
                 // Limits are within bounds so just pass
             } else {
@@ -218,7 +218,7 @@ int main(int argc, char ** argv)
 
     // Create the MoveIt!2 group interface
     using moveit::planning_interface::MoveGroupInterface;
-    static const std::string UR3E = "UR3e";
+    static const std::string UR3E = "ur3e_arm";
     move_group_interface = MoveGroupInterface(mi2_node, UR3E);
 
     // Create MoveIt!2 planning scene interface

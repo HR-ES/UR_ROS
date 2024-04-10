@@ -1,0 +1,26 @@
+[0.086s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_gazebo_sim:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[0.659s] [ 50%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
+[49.028s] [100%] [32m[1mLinking CXX executable moveJ_action[0m
+[50.764s] [100%] Built target moveJ_action
+[50.823s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_gazebo_sim:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[50.973s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_gazebo_sim:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_action_cpp
+[51.006s] -- Install configuration: ""
+[51.008s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveJ_action
+[51.013s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveJ_action" to ""
+[51.014s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ament_index/resource_index/package_run_dependencies/ur3e_ros_action_cpp
+[51.015s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ament_index/resource_index/parent_prefix_path/ur3e_ros_action_cpp
+[51.015s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/environment/ament_prefix_path.sh
+[51.016s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/environment/ament_prefix_path.dsv
+[51.017s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/environment/path.sh
+[51.017s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/environment/path.dsv
+[51.023s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/local_setup.bash
+[51.024s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/local_setup.sh
+[51.024s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/local_setup.zsh
+[51.025s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/local_setup.dsv
+[51.025s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.dsv
+[51.027s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ament_index/resource_index/packages/ur3e_ros_action_cpp
+[51.028s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/cmake/ur3e_ros_action_cppConfig.cmake
+[51.028s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/cmake/ur3e_ros_action_cppConfig-version.cmake
+[51.029s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.xml
+[51.052s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_gazebo_sim:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_action_cpp
