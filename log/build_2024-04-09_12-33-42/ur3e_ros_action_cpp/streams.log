@@ -1,0 +1,75 @@
+[0.068s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[0.376s] [ 50%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
+[25.723s] In file included from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6[m[K:
+[25.732s] [01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:168:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(int)[m[K’
+[25.734s]   168 |       const rclcpp::Duration& wait_for_servers = rclcpp::Duration(-1[01;31m[K)[m[K);
+[25.735s]       |                                                                     [01;31m[K^[m[K
+[25.738s] 
+[25.745s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:24[m[K,
+[25.746s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[25.763s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38[m[K,
+[25.763s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/kinematics_base/kinematics_base.h:43[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_model/joint_model_group.h:42[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+[25.764s]                  from [01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:41[m[K,
+[25.764s]                  from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6[m[K:
+[25.765s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[25.774s]    48 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+[25.774s]       |   [01;36m[K^~~~~~~~[m[K
+[25.775s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:48:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[25.775s] In file included from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6[m[K:
+[25.777s] [01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:168:84:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[25.777s]   168 |       const rclcpp::Duration& wait_for_servers = rclcpp::Duration(-1[01;36m[K)[m[K);
+[25.777s]       |                                                                     [01;36m[K^[m[K
+[25.778s] 
+[25.778s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:24[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/kinematics_base/kinematics_base.h:43[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_model/joint_model_group.h:42[m[K,
+[25.778s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_model/robot_model.h:45[m[K,
+[25.783s]                  from [01m[K/opt/ros/iron/include/moveit_core/moveit/robot_state/robot_state.h:40[m[K,
+[25.784s]                  from [01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:41[m[K,
+[25.784s]                  from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6[m[K:
+[25.784s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:158:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration()[m[K’
+[25.784s]   158 |   [01;36m[KDuration[m[K() = default;
+[25.785s]       |   [01;36m[K^~~~~~~~[m[K
+[25.785s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:158:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[25.793s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+[25.794s]    61 |   [01;36m[KDuration[m[K(const Duration & rhs);
+[25.794s]       |   [01;36m[K^~~~~~~~[m[K
+[25.794s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:61:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[25.794s]    61 |   Duration([01;36m[Kconst Duration & rhs[m[K);
+[25.795s]       |            [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[25.795s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+[25.795s]    59 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+[25.795s]       |            [01;36m[K^~~~~~~~[m[K
+[25.795s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:59:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rcl_duration_t&[m[K’ {aka ‘[01m[Kconst rcl_duration_s&[m[K’}
+[25.796s]    59 |   explicit Duration([01;36m[Kconst rcl_duration_t & duration[m[K);
+[25.796s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[25.796s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+[25.796s]    53 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+[25.796s]       |   [01;36m[K^~~~~~~~[m[K
+[25.797s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:53:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Duration&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’}
+[25.797s]    53 |   Duration([01;36m[Kconst builtin_interfaces::msg::Duration & duration_msg[m[K);  // NOLINT(runtime/explicit)
+[25.797s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[25.797s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+[25.798s]    42 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+[25.798s]       |            [01;36m[K^~~~~~~~[m[K
+[25.798s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:42:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+[25.798s]    42 |   explicit Duration([01;36m[Kstd::chrono::nanoseconds nanoseconds[m[K);
+[25.816s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[25.816s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+[25.816s]    39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+[25.820s]       |   [01;36m[K^~~~~~~~[m[K
+[25.820s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[39.203s] gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1
+[39.206s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveJ_action.dir/all] Error 2
+[39.211s] gmake: *** [Makefile:146: all] Error 2
+[39.217s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2

@@ -1,0 +1,348 @@
+[0.510s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.510s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cc4b53af1f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cc4b5533820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cc4b5533820>>, mixin_verb=('build',))
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harry/ur3e_ws'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extension 'ignore'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extension 'ignore_ament_install'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extensions ['colcon_pkg']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extension 'colcon_pkg'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extensions ['colcon_meta']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_gazebo_sim) by extension 'ros'
+[1.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3e_gazebo_sim' with type 'ros.ament_cmake' and name 'ur3e_gazebo_sim'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extension 'ignore_ament_install'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extension 'colcon_meta'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extensions ['ros']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action) by extension 'ros'
+[1.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3e_ros_action' with type 'ros.ament_python' and name 'ur3e_ros_action'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extension 'ignore'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extension 'ignore_ament_install'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extensions ['colcon_pkg']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extension 'colcon_pkg'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extensions ['colcon_meta']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extension 'colcon_meta'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extensions ['ros']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_action_cpp) by extension 'ros'
+[1.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3e_ros_action_cpp' with type 'ros.ament_cmake' and name 'ur3e_ros_action_cpp'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extension 'ignore'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extension 'ignore_ament_install'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extensions ['colcon_pkg']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extension 'colcon_pkg'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extensions ['colcon_meta']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extension 'colcon_meta'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extensions ['ros']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_ros_data) by extension 'ros'
+[1.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3e_ros_data' with type 'ros.ament_cmake' and name 'ur3e_ros_data'
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/harry/ur3e_ws/install
+[1.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/harry/ur_ws/install
+[1.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/iron
+[1.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.664s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[1.664s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'ur3e_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.665s] DEBUG:colcon.colcon_core.verb:Building package 'ur3e_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/ur3e_ws/build/ur3e_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/ur3e_ws/install/ur3e_gazebo_sim', 'merge_install': False, 'path': '/home/harry/ur3e_ws/src/ur3e_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_args' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_target' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_clean_cache' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_clean_first' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'cmake_force_configure' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'ament_cmake_args' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'catkin_cmake_args' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.668s] DEBUG:colcon.colcon_core.verb:Building package 'ur3e_ros_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/ur3e_ws/build/ur3e_ros_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/ur3e_ws/install/ur3e_ros_action', 'merge_install': False, 'path': '/home/harry/ur3e_ws/src/ur3e_ros_action', 'symlink_install': False, 'test_result_base': None}
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_target' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_clean_cache' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_clean_first' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'cmake_force_configure' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'ament_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'catkin_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.669s] DEBUG:colcon.colcon_core.verb:Building package 'ur3e_ros_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/ur3e_ws/build/ur3e_ros_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/ur3e_ws/install/ur3e_ros_data', 'merge_install': False, 'path': '/home/harry/ur3e_ws/src/ur3e_ros_data', 'symlink_install': False, 'test_result_base': None}
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_target' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'ur3e_ros_action_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.670s] DEBUG:colcon.colcon_core.verb:Building package 'ur3e_ros_action_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp', 'merge_install': False, 'path': '/home/harry/ur3e_ws/src/ur3e_ros_action_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.670s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/ur3e_ws/src/ur3e_ros_data' with build type 'ament_cmake'
+[1.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/ur3e_ws/src/ur3e_ros_data'
+[1.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/ur3e_ws/src/ur3e_gazebo_sim' with build type 'ament_cmake'
+[1.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/ur3e_ws/src/ur3e_gazebo_sim'
+[1.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_data -- -j2 -l2
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_gazebo_sim -- -j2 -l2
+[4.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_gazebo_sim -- -j2 -l2
+[4.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_gazebo_sim
+[4.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_gazebo_sim)
+[4.871s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim' for CMake module files
+[4.873s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim' for CMake config files
+[4.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_gazebo_sim', 'cmake_prefix_path')
+[4.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.ps1'
+[4.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.dsv'
+[4.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.sh'
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/bin'
+[4.908s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/lib/pkgconfig/ur3e_gazebo_sim.pc'
+[4.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_gazebo_sim
+[4.912s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/lib/python3.10/site-packages'
+[4.918s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/bin'
+[4.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.ps1'
+[4.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.dsv'
+[4.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.sh'
+[4.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.bash'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.zsh'
+[4.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/colcon-core/packages/ur3e_gazebo_sim)
+[5.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_gazebo_sim)
+[5.147s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim' for CMake module files
+[5.148s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim' for CMake config files
+[5.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_gazebo_sim', 'cmake_prefix_path')
+[5.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.ps1'
+[5.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.dsv'
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/hook/cmake_prefix_path.sh'
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/bin'
+[5.154s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/lib/pkgconfig/ur3e_gazebo_sim.pc'
+[5.154s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/lib/python3.10/site-packages'
+[5.155s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/bin'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.ps1'
+[5.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.sh'
+[5.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.bash'
+[5.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/package.zsh'
+[5.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/colcon-core/packages/ur3e_gazebo_sim)
+[5.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/ur3e_ws/src/ur3e_ros_action' with build type 'ament_python'
+[5.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_action', 'ament_prefix_path')
+[5.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/ament_prefix_path.ps1'
+[5.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/ament_prefix_path.dsv'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/ament_prefix_path.sh'
+[5.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.162s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/ur3e_ws/src/ur3e_ros_action'
+[7.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/src/ur3e_ros_action': PYTHONPATH=/home/harry/ur3e_ws/build/ur3e_ros_action/prefix_override:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3e_ros_action build --build-base /home/harry/ur3e_ws/build/ur3e_ros_action/build install --record /home/harry/ur3e_ws/build/ur3e_ros_action/install.log --single-version-externally-managed install_data
+[12.681s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action' for CMake module files
+[12.682s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action' for CMake config files
+[12.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/src/ur3e_ros_action' returned '0': PYTHONPATH=/home/harry/ur3e_ws/build/ur3e_ros_action/prefix_override:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3e_ros_action build --build-base /home/harry/ur3e_ws/build/ur3e_ros_action/build install --record /home/harry/ur3e_ws/build/ur3e_ros_action/install.log --single-version-externally-managed install_data
+[12.685s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action/lib'
+[12.686s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action/bin'
+[12.686s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action/lib/pkgconfig/ur3e_ros_action.pc'
+[12.692s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages'
+[12.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_action', 'pythonpath')
+[12.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/pythonpath.ps1'
+[12.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/pythonpath.dsv'
+[12.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/hook/pythonpath.sh'
+[12.706s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action/bin'
+[12.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_ros_action)
+[12.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/package.ps1'
+[12.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/package.dsv'
+[12.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/package.sh'
+[12.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/package.bash'
+[12.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action/share/ur3e_ros_action/package.zsh'
+[12.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_ros_action/share/colcon-core/packages/ur3e_ros_action)
+[41.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_data -- -j2 -l2
+[41.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_data
+[42.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_ros_data)
+[42.176s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data' for CMake module files
+[42.178s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data' for CMake config files
+[42.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'cmake_prefix_path')
+[42.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.ps1'
+[42.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.dsv'
+[42.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_data
+[42.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.sh'
+[42.200s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib'
+[42.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'ld_library_path_lib')
+[42.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.ps1'
+[42.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.dsv'
+[42.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.sh'
+[42.215s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/bin'
+[42.215s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/pkgconfig/ur3e_ros_data.pc'
+[42.216s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages'
+[42.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'pythonpath')
+[42.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.ps1'
+[42.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.dsv'
+[42.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.sh'
+[42.231s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/bin'
+[42.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.ps1'
+[42.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.dsv'
+[42.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.sh'
+[42.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.bash'
+[42.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.zsh'
+[42.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_ros_data/share/colcon-core/packages/ur3e_ros_data)
+[42.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_ros_data)
+[42.827s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data' for CMake module files
+[42.829s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data' for CMake config files
+[42.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'cmake_prefix_path')
+[42.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.ps1'
+[42.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.dsv'
+[42.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/cmake_prefix_path.sh'
+[42.838s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib'
+[42.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'ld_library_path_lib')
+[42.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.ps1'
+[42.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.dsv'
+[42.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/ld_library_path_lib.sh'
+[42.846s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/bin'
+[42.846s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/pkgconfig/ur3e_ros_data.pc'
+[42.846s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages'
+[42.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_data', 'pythonpath')
+[42.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.ps1'
+[42.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.dsv'
+[42.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/hook/pythonpath.sh'
+[42.863s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_data/bin'
+[42.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.ps1'
+[42.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.dsv'
+[42.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.sh'
+[42.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.bash'
+[42.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.zsh'
+[42.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_ros_data/share/colcon-core/packages/ur3e_ros_data)
+[42.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/ur3e_ws/src/ur3e_ros_action_cpp' with build type 'ament_cmake'
+[42.882s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/ur3e_ws/src/ur3e_ros_action_cpp'
+[42.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[42.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[42.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[85.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j2 -l2
+[85.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_action_cpp
+[85.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_ros_action_cpp)
+[85.769s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp' for CMake module files
+[85.771s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp' for CMake config files
+[85.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_action_cpp', 'cmake_prefix_path')
+[85.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.ps1'
+[85.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_action_cpp
+[85.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.dsv'
+[85.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.sh'
+[85.784s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib'
+[85.784s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/bin'
+[85.784s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/pkgconfig/ur3e_ros_action_cpp.pc'
+[85.785s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/python3.10/site-packages'
+[85.785s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/bin'
+[85.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.ps1'
+[85.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.dsv'
+[85.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.sh'
+[85.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.bash'
+[85.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.zsh'
+[85.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/colcon-core/packages/ur3e_ros_action_cpp)
+[85.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3e_ros_action_cpp)
+[85.934s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp' for CMake module files
+[85.936s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp' for CMake config files
+[85.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_ros_action_cpp', 'cmake_prefix_path')
+[85.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.ps1'
+[85.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.dsv'
+[85.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/hook/cmake_prefix_path.sh'
+[85.947s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib'
+[85.948s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/bin'
+[85.948s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/pkgconfig/ur3e_ros_action_cpp.pc'
+[85.948s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/python3.10/site-packages'
+[85.948s] Level 1:colcon.colcon_core.environment:checking '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/bin'
+[85.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.ps1'
+[85.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.dsv'
+[85.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.sh'
+[85.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.bash'
+[85.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/package.zsh'
+[85.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/colcon-core/packages/ur3e_ros_action_cpp)
+[85.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[85.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[85.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[85.964s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[85.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[85.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[85.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[86.066s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[86.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/ur3e_ws/install/local_setup.ps1'
+[86.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harry/ur3e_ws/install/_local_setup_util_ps1.py'
+[86.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/ur3e_ws/install/setup.ps1'
+[86.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/ur3e_ws/install/local_setup.sh'
+[86.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harry/ur3e_ws/install/_local_setup_util_sh.py'
+[86.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/ur3e_ws/install/setup.sh'
+[86.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/ur3e_ws/install/local_setup.bash'
+[86.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/ur3e_ws/install/setup.bash'
+[86.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/ur3e_ws/install/local_setup.zsh'
+[86.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/ur3e_ws/install/setup.zsh'

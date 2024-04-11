@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.000609] (-) JobUnselected: {'identifier': 'ur3e_gazebo_sim'}
+[0.000854] (-) JobUnselected: {'identifier': 'ur3e_ros_action'}
+[0.001021] (-) JobUnselected: {'identifier': 'ur3e_ros_data'}
+[0.001098] (ur3e_ros_action_cpp) JobQueued: {'identifier': 'ur3e_ros_action_cpp', 'dependencies': OrderedDict([('ur3e_ros_data', '/home/harry/ur3e_ws/install/ur3e_ros_data')])}
+[0.001175] (ur3e_ros_action_cpp) JobStarted: {'identifier': 'ur3e_ros_action_cpp'}
+[0.047104] (ur3e_ros_action_cpp) JobProgress: {'identifier': 'ur3e_ros_action_cpp', 'progress': 'cmake'}
+[0.051222] (ur3e_ros_action_cpp) JobProgress: {'identifier': 'ur3e_ros_action_cpp', 'progress': 'build'}
+[0.053729] (ur3e_ros_action_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp', '--', '-j2', '-l2'], 'cwd': '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'harry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/harry/ur3e_ws/install/ur3e_ros_data/lib:/home/harry/ur_ws/install/ur3e_ros_data/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/ur3e_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harry/ur3e_ws/install:/home/harry/ur_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry:@/tmp/.ICE-unix/1369,unix/harry:/tmp/.ICE-unix/1369'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90f5f763_45c6_4e83_9a77_21a82d1c5f90'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EYK1L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_gazebo_sim:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/home/harry/ur_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur_ws/install/ur3e_ros_data:/home/harry/ur_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/home/harry/ur_ws/install/ur3e_ros_action:/opt/ros/iron')]), 'shell': False}
+[0.089788] (-) TimerEvent: {}
+[0.192101] (-) TimerEvent: {}
+[0.294721] (ur3e_ros_action_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveJ_action\x1b[0m\n'}
+[0.295084] (-) TimerEvent: {}
+[0.396657] (-) TimerEvent: {}
+[0.413332] (ur3e_ros_action_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o\x1b[0m\n'}
+[0.497234] (-) TimerEvent: {}
+[0.599223] (-) TimerEvent: {}
+[0.701616] (-) TimerEvent: {}
+[0.804882] (-) TimerEvent: {}
+[0.911810] (-) TimerEvent: {}
+[1.015490] (-) TimerEvent: {}
+[1.119164] (-) TimerEvent: {}
+[1.221379] (-) TimerEvent: {}
+[1.324189] (-) TimerEvent: {}
+[1.425782] (-) TimerEvent: {}
+[1.530247] (-) TimerEvent: {}
+[1.632954] (-) TimerEvent: {}
+[1.734567] (-) TimerEvent: {}
+[1.835881] (-) TimerEvent: {}
+[1.938183] (-) TimerEvent: {}
+[2.039897] (-) TimerEvent: {}
+[2.141413] (-) TimerEvent: {}
+[2.243096] (-) TimerEvent: {}
+[2.344851] (-) TimerEvent: {}
+[2.446990] (-) TimerEvent: {}
+[2.548987] (-) TimerEvent: {}
+[2.650718] (-) TimerEvent: {}
+[2.752657] (-) TimerEvent: {}
+[2.854767] (-) TimerEvent: {}
+[2.956756] (-) TimerEvent: {}
+[3.058333] (-) TimerEvent: {}
+[3.162177] (-) TimerEvent: {}
+[3.267882] (-) TimerEvent: {}
+[3.370172] (-) TimerEvent: {}
+[3.471371] (-) TimerEvent: {}
+[3.573246] (-) TimerEvent: {}
+[3.674320] (-) TimerEvent: {}
+[3.776135] (-) TimerEvent: {}
+[3.877290] (-) TimerEvent: {}
+[3.978174] (-) TimerEvent: {}
+[4.079891] (-) TimerEvent: {}
+[4.181789] (-) TimerEvent: {}
+[4.282698] (-) TimerEvent: {}
+[4.384074] (-) TimerEvent: {}
+[4.486148] (-) TimerEvent: {}
+[4.588098] (-) TimerEvent: {}
+[4.691624] (-) TimerEvent: {}
+[4.798503] (-) TimerEvent: {}
+[4.908559] (-) TimerEvent: {}
+[5.013459] (-) TimerEvent: {}
+[5.114813] (-) TimerEvent: {}
+[5.216816] (-) TimerEvent: {}
+[5.318674] (-) TimerEvent: {}
+[5.420984] (-) TimerEvent: {}
+[5.522610] (-) TimerEvent: {}
+[5.624929] (-) TimerEvent: {}
+[5.727746] (-) TimerEvent: {}
+[5.829591] (-) TimerEvent: {}
+[5.931317] (-) TimerEvent: {}
+[6.034722] (-) TimerEvent: {}
+[6.137084] (-) TimerEvent: {}
+[6.238927] (-) TimerEvent: {}
+[6.340910] (-) TimerEvent: {}
+[6.441931] (-) TimerEvent: {}
+[6.544662] (-) TimerEvent: {}
+[6.645700] (-) TimerEvent: {}
+[6.751469] (-) TimerEvent: {}
+[6.852942] (-) TimerEvent: {}
+[6.953812] (-) TimerEvent: {}
+[7.054878] (-) TimerEvent: {}
+[7.155856] (-) TimerEvent: {}
+[7.258439] (-) TimerEvent: {}
+[7.359671] (-) TimerEvent: {}
+[7.461032] (-) TimerEvent: {}
+[7.562347] (-) TimerEvent: {}
+[7.663620] (-) TimerEvent: {}
+[7.764923] (-) TimerEvent: {}
+[7.868825] (-) TimerEvent: {}
+[7.970949] (-) TimerEvent: {}
+[8.072707] (-) TimerEvent: {}
+[8.174177] (-) TimerEvent: {}
+[8.274969] (-) TimerEvent: {}
+[8.376492] (-) TimerEvent: {}
+[8.479714] (-) TimerEvent: {}
+[8.581094] (-) TimerEvent: {}
+[8.683190] (-) TimerEvent: {}
+[8.785096] (-) TimerEvent: {}
+[8.887082] (-) TimerEvent: {}
+[8.988647] (-) TimerEvent: {}
+[9.089930] (-) TimerEvent: {}
+[9.190957] (-) TimerEvent: {}
+[9.292698] (-) TimerEvent: {}
+[9.393739] (-) TimerEvent: {}
+[9.495007] (-) TimerEvent: {}
+[9.596351] (-) TimerEvent: {}
+[9.698492] (-) TimerEvent: {}
+[9.799431] (-) TimerEvent: {}
+[9.900974] (-) TimerEvent: {}
+[10.002255] (-) TimerEvent: {}
+[10.105716] (-) TimerEvent: {}
+[10.207587] (-) TimerEvent: {}
+[10.309177] (-) TimerEvent: {}
+[10.410450] (-) TimerEvent: {}
+[10.511428] (-) TimerEvent: {}
+[10.612719] (-) TimerEvent: {}
+[10.713754] (-) TimerEvent: {}
+[10.814885] (-) TimerEvent: {}
+[10.916111] (-) TimerEvent: {}
+[11.017307] (-) TimerEvent: {}
+[11.118565] (-) TimerEvent: {}
+[11.220026] (-) TimerEvent: {}
+[11.321590] (-) TimerEvent: {}
+[11.423466] (-) TimerEvent: {}
+[11.524799] (-) TimerEvent: {}
+[11.625621] (-) TimerEvent: {}
+[11.727139] (-) TimerEvent: {}
+[11.828721] (-) TimerEvent: {}
+[11.930732] (-) TimerEvent: {}
+[12.032672] (-) TimerEvent: {}
+[12.134956] (-) TimerEvent: {}
+[12.236081] (-) TimerEvent: {}
+[12.338165] (-) TimerEvent: {}
+[12.439381] (-) TimerEvent: {}
+[12.541817] (-) TimerEvent: {}
+[12.643123] (-) TimerEvent: {}
+[12.743881] (-) TimerEvent: {}
+[12.845608] (-) TimerEvent: {}
+[12.946512] (-) TimerEvent: {}
+[13.047741] (-) TimerEvent: {}
+[13.148990] (-) TimerEvent: {}
+[13.251064] (-) TimerEvent: {}
+[13.353214] (-) TimerEvent: {}
+[13.454166] (-) TimerEvent: {}
+[13.555508] (-) TimerEvent: {}
+[13.656611] (-) TimerEvent: {}
+[13.758032] (-) TimerEvent: {}
+[13.859524] (-) TimerEvent: {}
+[13.962309] (-) TimerEvent: {}
+[14.063315] (-) TimerEvent: {}
+[14.165025] (-) TimerEvent: {}
+[14.266946] (-) TimerEvent: {}
+[14.367987] (-) TimerEvent: {}
+[14.469430] (-) TimerEvent: {}
+[14.570249] (-) TimerEvent: {}
+[14.672373] (-) TimerEvent: {}
+[14.774148] (-) TimerEvent: {}
+[14.875131] (-) TimerEvent: {}
+[14.980603] (-) TimerEvent: {}
+[15.082144] (-) TimerEvent: {}
+[15.191261] (-) TimerEvent: {}
+[15.293449] (-) TimerEvent: {}
+[15.396029] (-) TimerEvent: {}
+[15.497965] (-) TimerEvent: {}
+[15.600808] (-) TimerEvent: {}
+[15.703248] (-) TimerEvent: {}
+[15.805743] (-) TimerEvent: {}
+[15.907944] (-) TimerEvent: {}
+[16.010447] (-) TimerEvent: {}
+[16.112107] (-) TimerEvent: {}
+[16.214741] (-) TimerEvent: {}
+[16.315930] (-) TimerEvent: {}
+[16.417049] (-) TimerEvent: {}
+[16.518105] (-) TimerEvent: {}
+[16.619733] (-) TimerEvent: {}
+[16.721639] (-) TimerEvent: {}
+[16.823314] (-) TimerEvent: {}
+[16.925122] (-) TimerEvent: {}
+[17.026327] (-) TimerEvent: {}
+[17.127845] (-) TimerEvent: {}
+[17.229529] (-) TimerEvent: {}
+[17.330345] (-) TimerEvent: {}
+[17.431286] (-) TimerEvent: {}
+[17.532177] (-) TimerEvent: {}
+[17.633950] (-) TimerEvent: {}
+[17.734918] (-) TimerEvent: {}
+[17.837061] (-) TimerEvent: {}
+[17.938388] (-) TimerEvent: {}
+[18.039643] (-) TimerEvent: {}
+[18.140937] (-) TimerEvent: {}
+[18.242755] (-) TimerEvent: {}
+[18.344615] (-) TimerEvent: {}
+[18.447488] (-) TimerEvent: {}
+[18.549914] (-) TimerEvent: {}
+[18.651190] (-) TimerEvent: {}
+[18.755314] (-) TimerEvent: {}
+[18.857650] (-) TimerEvent: {}
+[18.959580] (-) TimerEvent: {}
+[19.061943] (-) TimerEvent: {}
+[19.163923] (-) TimerEvent: {}
+[19.266043] (-) TimerEvent: {}
+[19.369105] (-) TimerEvent: {}
+[19.471964] (-) TimerEvent: {}
+[19.573774] (-) TimerEvent: {}
+[19.676240] (-) TimerEvent: {}
+[19.777535] (-) TimerEvent: {}
+[19.880464] (-) TimerEvent: {}
+[19.981835] (-) TimerEvent: {}
+[20.083839] (-) TimerEvent: {}
+[20.185563] (-) TimerEvent: {}
+[20.287466] (-) TimerEvent: {}
+[20.388595] (-) TimerEvent: {}
+[20.489797] (-) TimerEvent: {}
+[20.591126] (-) TimerEvent: {}
+[20.692946] (-) TimerEvent: {}
+[20.793859] (-) TimerEvent: {}
+[20.896139] (-) TimerEvent: {}
+[20.998407] (-) TimerEvent: {}
+[21.100407] (-) TimerEvent: {}
+[21.201678] (-) TimerEvent: {}
+[21.302413] (-) TimerEvent: {}
+[21.404144] (-) TimerEvent: {}
+[21.505399] (-) TimerEvent: {}
+[21.606848] (-) TimerEvent: {}
+[21.707804] (-) TimerEvent: {}
+[21.809351] (-) TimerEvent: {}
+[21.910233] (-) TimerEvent: {}
+[22.011058] (-) TimerEvent: {}
+[22.112780] (-) TimerEvent: {}
+[22.214108] (-) TimerEvent: {}
+[22.315908] (-) TimerEvent: {}
+[22.416866] (-) TimerEvent: {}
+[22.518265] (-) TimerEvent: {}
+[22.619018] (-) TimerEvent: {}
+[22.720367] (-) TimerEvent: {}
+[22.821554] (-) TimerEvent: {}
+[22.922760] (-) TimerEvent: {}
+[23.023895] (-) TimerEvent: {}
+[23.125572] (-) TimerEvent: {}
+[23.226629] (-) TimerEvent: {}
+[23.328342] (-) TimerEvent: {}
+[23.429391] (-) TimerEvent: {}
+[23.530806] (-) TimerEvent: {}
+[23.633236] (-) TimerEvent: {}
+[23.736061] (-) TimerEvent: {}
+[23.838431] (-) TimerEvent: {}
+[23.942105] (-) TimerEvent: {}
+[24.044306] (-) TimerEvent: {}
+[24.145791] (-) TimerEvent: {}
+[24.247001] (-) TimerEvent: {}
+[24.347804] (-) TimerEvent: {}
+[24.448737] (-) TimerEvent: {}
+[24.550333] (-) TimerEvent: {}
+[24.651840] (-) TimerEvent: {}
+[24.753884] (-) TimerEvent: {}
+[24.855596] (-) TimerEvent: {}
+[24.956418] (-) TimerEvent: {}
+[25.057770] (-) TimerEvent: {}
+[25.159796] (-) TimerEvent: {}
+[25.261138] (-) TimerEvent: {}
+[25.363389] (-) TimerEvent: {}
+[25.407434] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:16:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.408126] (ur3e_ros_action_cpp) StderrLine: {'line': b'   16 | moveit::planning_interface::MoveGroupInterface \x1b[01;31m\x1b[Kmove_group_interface\x1b[m\x1b[K;\n'}
+[25.408375] (ur3e_ros_action_cpp) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.408909] (ur3e_ros_action_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6\x1b[m\x1b[K:\n'}
+[25.409172] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:155:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.409475] (ur3e_ros_action_cpp) StderrLine: {'line': b'  155 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[25.409689] (ur3e_ros_action_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.409890] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:155:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[25.410093] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:141:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.410299] (ur3e_ros_action_cpp) StderrLine: {'line': b'  141 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[25.410495] (ur3e_ros_action_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.410690] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:141:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[25.410913] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.411263] (ur3e_ros_action_cpp) StderrLine: {'line': b'  130 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[25.411464] (ur3e_ros_action_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.411656] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[25.463868] (-) TimerEvent: {}
+[25.564457] (-) TimerEvent: {}
+[25.629777] (ur3e_ros_action_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[25.630708] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/moveit_core/moveit/kinematics_base/kinematics_base.h:42\x1b[m\x1b[K,\n'}
+[25.630997] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/moveit_core/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[25.631226] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/moveit_core/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[25.631443] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/moveit_core/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[25.631655] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[25.631872] (ur3e_ros_action_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6\x1b[m\x1b[K:\n'}
+[25.632285] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse MoveJ_ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveJ_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.632565] (ur3e_ros_action_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:55:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = const struct ur3e_ros_data::action::MoveJ_Goal_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct ur3e_ros_data::action::MoveJ_Goal_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Korder\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.632858] (ur3e_ros_action_cpp) StderrLine: {'line': b'   55 | his->get_logger(), "Received goal request with order %d", goal->\x1b[01;31m\x1b[Korder\x1b[m\x1b[K);\n'}
+[25.633059] (ur3e_ros_action_cpp) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[25.633277] (ur3e_ros_action_cpp) StderrLine: {'line': b'\n'}
+[25.664837] (-) TimerEvent: {}
+[25.765854] (-) TimerEvent: {}
+[25.867529] (-) TimerEvent: {}
+[25.968766] (-) TimerEvent: {}
+[26.070053] (-) TimerEvent: {}
+[26.171279] (-) TimerEvent: {}
+[26.272944] (-) TimerEvent: {}
+[26.374813] (-) TimerEvent: {}
+[26.476555] (-) TimerEvent: {}
+[26.577514] (-) TimerEvent: {}
+[26.678373] (-) TimerEvent: {}
+[26.779505] (-) TimerEvent: {}
+[26.881557] (-) TimerEvent: {}
+[26.983069] (-) TimerEvent: {}
+[27.083939] (-) TimerEvent: {}
+[27.184813] (-) TimerEvent: {}
+[27.286722] (-) TimerEvent: {}
+[27.388423] (-) TimerEvent: {}
+[27.489960] (-) TimerEvent: {}
+[27.590856] (-) TimerEvent: {}
+[27.692281] (-) TimerEvent: {}
+[27.794163] (-) TimerEvent: {}
+[27.895594] (-) TimerEvent: {}
+[27.997171] (-) TimerEvent: {}
+[28.097947] (-) TimerEvent: {}
+[28.199075] (-) TimerEvent: {}
+[28.300267] (-) TimerEvent: {}
+[28.401254] (-) TimerEvent: {}
+[28.502160] (-) TimerEvent: {}
+[28.604073] (-) TimerEvent: {}
+[28.705197] (-) TimerEvent: {}
+[28.807393] (-) TimerEvent: {}
+[28.909354] (-) TimerEvent: {}
+[29.011986] (-) TimerEvent: {}
+[29.112892] (-) TimerEvent: {}
+[29.213915] (-) TimerEvent: {}
+[29.315268] (-) TimerEvent: {}
+[29.416460] (-) TimerEvent: {}
+[29.517641] (-) TimerEvent: {}
+[29.619943] (-) TimerEvent: {}
+[29.720900] (-) TimerEvent: {}
+[29.822009] (-) TimerEvent: {}
+[29.923449] (-) TimerEvent: {}
+[30.026296] (-) TimerEvent: {}
+[30.126949] (-) TimerEvent: {}
+[30.227814] (-) TimerEvent: {}
+[30.329036] (-) TimerEvent: {}
+[30.430283] (-) TimerEvent: {}
+[30.532976] (-) TimerEvent: {}
+[30.636089] (-) TimerEvent: {}
+[30.737664] (-) TimerEvent: {}
+[30.839695] (-) TimerEvent: {}
+[30.940907] (-) TimerEvent: {}
+[31.042461] (-) TimerEvent: {}
+[31.144544] (-) TimerEvent: {}
+[31.246148] (-) TimerEvent: {}
+[31.347899] (-) TimerEvent: {}
+[31.449693] (-) TimerEvent: {}
+[31.551958] (-) TimerEvent: {}
+[31.654389] (-) TimerEvent: {}
+[31.755822] (-) TimerEvent: {}
+[31.856806] (-) TimerEvent: {}
+[31.957622] (-) TimerEvent: {}
+[32.059365] (-) TimerEvent: {}
+[32.161543] (-) TimerEvent: {}
+[32.263799] (-) TimerEvent: {}
+[32.364911] (-) TimerEvent: {}
+[32.467400] (-) TimerEvent: {}
+[32.568278] (-) TimerEvent: {}
+[32.669917] (-) TimerEvent: {}
+[32.771394] (-) TimerEvent: {}
+[32.872429] (-) TimerEvent: {}
+[32.973421] (-) TimerEvent: {}
+[33.074791] (-) TimerEvent: {}
+[33.176055] (-) TimerEvent: {}
+[33.278150] (-) TimerEvent: {}
+[33.381338] (-) TimerEvent: {}
+[33.482481] (-) TimerEvent: {}
+[33.584624] (-) TimerEvent: {}
+[33.686826] (-) TimerEvent: {}
+[33.787835] (-) TimerEvent: {}
+[33.888902] (-) TimerEvent: {}
+[33.990317] (-) TimerEvent: {}
+[34.092285] (-) TimerEvent: {}
+[34.193369] (-) TimerEvent: {}
+[34.294421] (-) TimerEvent: {}
+[34.395340] (-) TimerEvent: {}
+[34.496911] (-) TimerEvent: {}
+[34.597873] (-) TimerEvent: {}
+[34.698747] (-) TimerEvent: {}
+[34.800635] (-) TimerEvent: {}
+[34.901971] (-) TimerEvent: {}
+[35.002987] (-) TimerEvent: {}
+[35.104081] (-) TimerEvent: {}
+[35.205204] (-) TimerEvent: {}
+[35.306815] (-) TimerEvent: {}
+[35.408262] (-) TimerEvent: {}
+[35.510210] (-) TimerEvent: {}
+[35.611487] (-) TimerEvent: {}
+[35.713175] (-) TimerEvent: {}
+[35.814569] (-) TimerEvent: {}
+[35.915569] (-) TimerEvent: {}
+[36.016808] (-) TimerEvent: {}
+[36.117859] (-) TimerEvent: {}
+[36.219577] (-) TimerEvent: {}
+[36.321009] (-) TimerEvent: {}
+[36.422132] (-) TimerEvent: {}
+[36.523767] (-) TimerEvent: {}
+[36.625867] (-) TimerEvent: {}
+[36.727355] (-) TimerEvent: {}
+[36.828157] (-) TimerEvent: {}
+[36.929069] (-) TimerEvent: {}
+[37.030175] (-) TimerEvent: {}
+[37.132080] (-) TimerEvent: {}
+[37.233583] (-) TimerEvent: {}
+[37.335658] (-) TimerEvent: {}
+[37.436438] (-) TimerEvent: {}
+[37.538395] (-) TimerEvent: {}
+[37.639309] (-) TimerEvent: {}
+[37.741004] (-) TimerEvent: {}
+[37.841894] (-) TimerEvent: {}
+[37.943232] (-) TimerEvent: {}
+[38.046367] (-) TimerEvent: {}
+[38.147574] (-) TimerEvent: {}
+[38.248686] (-) TimerEvent: {}
+[38.350573] (-) TimerEvent: {}
+[38.452427] (-) TimerEvent: {}
+[38.553536] (-) TimerEvent: {}
+[38.654544] (-) TimerEvent: {}
+[38.755638] (-) TimerEvent: {}
+[38.795782] (ur3e_ros_action_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1\n'}
+[38.796284] (ur3e_ros_action_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveJ_action.dir/all] Error 2\n'}
+[38.796557] (ur3e_ros_action_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.796779] (ur3e_ros_action_cpp) CommandEnded: {'returncode': 2}
+[38.856588] (-) TimerEvent: {}
+[38.958926] (-) TimerEvent: {}
+[38.997941] (ur3e_ros_action_cpp) JobEnded: {'identifier': 'ur3e_ros_action_cpp', 'rc': 2}
+[39.010367] (-) EventReactorShutdown: {}

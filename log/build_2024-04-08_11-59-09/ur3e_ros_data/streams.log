@@ -1,0 +1,30 @@
+[0.041s] Invoking command in '/home/harry/ur_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/harry/ur_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur_ws/install/ur3e_ros_data
+[0.618s] -- The C compiler identification is GNU 11.4.0
+[1.013s] -- The CXX compiler identification is GNU 11.4.0
+[1.062s] -- Detecting C compiler ABI info
+[1.232s] -- Detecting C compiler ABI info - done
+[1.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.285s] -- Detecting C compile features
+[1.287s] -- Detecting C compile features - done
+[1.297s] -- Detecting CXX compiler ABI info
+[1.591s] -- Detecting CXX compiler ABI info - done
+[1.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.619s] -- Detecting CXX compile features
+[1.619s] -- Detecting CXX compile features - done
+[1.634s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.312s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.692s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.048s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[3.062s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[3.062s]   rosidl_generate_interfaces() the passed file 'msg/JointPost.msg' doesn't
+[3.062s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[3.062s]   '/home/harry/ur_ws/src/ur3e_ros_data'
+[3.063s] Call Stack (most recent call first):
+[3.063s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[3.063s] 
+[3.063s] [0m
+[3.063s] -- Configuring incomplete, errors occurred!
+[3.063s] See also "/home/harry/ur_ws/build/ur3e_ros_data/CMakeFiles/CMakeOutput.log".
+[3.072s] Invoked command in '/home/harry/ur_ws/build/ur3e_ros_data' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/harry/ur_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur_ws/install/ur3e_ros_data

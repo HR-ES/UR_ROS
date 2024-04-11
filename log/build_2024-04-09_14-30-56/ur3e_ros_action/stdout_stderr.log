@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/dependency_links.txt
+writing entry points to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/entry_points.txt
+writing requirements to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/requires.txt
+writing top-level names to ../../build/ur3e_ros_action/ur3e_ros_action.egg-info/top_level.txt
+reading manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur3e_ros_action/ur3e_ros_action.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+copying /home/harry/ur3e_ws/build/ur3e_ros_action/build/lib/ur3e_ros_action/moveJ_action.py -> /home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action
+byte-compiling /home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action/moveJ_action.py to moveJ_action.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ur3e_ros_action/ur3e_ros_action.egg-info to /home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages/ur3e_ros_action-0.0.0-py3.10.egg-info
+running install_scripts
+Installing moveJ script to /home/harry/ur3e_ws/install/ur3e_ros_action/lib/ur3e_ros_action
+writing list of installed files to '/home/harry/ur3e_ws/build/ur3e_ros_action/install.log'
