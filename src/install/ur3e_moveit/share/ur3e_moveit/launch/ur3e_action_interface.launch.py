@@ -1,15 +1,30 @@
 import os
 import xacro
 import yaml
+import math
 
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch.actions import ExecuteProcess, IncludeLaunchDescription, RegisterEventHandler, DeclareLaunchArgument, TimerAction
 from launch.conditions import IfCondition, UnlessCondition
 from launch.event_handlers import OnProcessExit
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.substitutions import FindPackageShare
 from ament_index_python.packages import get_package_share_directory
+
+def construct_angle_radians(loader, node):
+    """Utility function to construct radian values from yaml."""
+    value = loader.construct_scalar(node)
+    try:
+        return float(value)
+    except SyntaxError:
+        raise Exception("invalid expression: %s" % value)
+
+
+def construct_angle_degrees(loader, node):
+    """Utility function for converting degrees into radians from yaml."""
+    return math.radians(construct_angle_radians(loader, node))
 
 def load_file(package_name, file_path):
     package_path = get_package_share_directory(package_name)
@@ -21,14 +36,35 @@ def load_file(package_name, file_path):
     except EnvironmentError:
         return None
 
+
 def load_yaml(package_name, file_path):
     package_path = get_package_share_directory(package_name)
     absolute_file_path = os.path.join(package_path, file_path)
 
     try:
-        with open(absolute_file_path, 'r') as file:
+        yaml.SafeLoader.add_constructor("!radians", construct_angle_radians)
+        yaml.SafeLoader.add_constructor("!degrees", construct_angle_degrees)
+    except Exception:
+        raise Exception("yaml support not available; install python-yaml")
+
+    try:
+        with open(absolute_file_path) as file:
             return yaml.safe_load(file)
-    except EnvironmentError:
+    except OSError:  # parent of IOError, OSError *and* WindowsError where available
+        return None
+
+
+def load_yaml_abs(absolute_file_path):
+    try:
+        yaml.SafeLoader.add_constructor("!radians", construct_angle_radians)
+        yaml.SafeLoader.add_constructor("!degrees", construct_angle_degrees)
+    except Exception:
+        raise Exception("yaml support not available; install python-yaml")
+
+    try:
+        with open(absolute_file_path) as file:
+            return yaml.safe_load(file)
+    except OSError:  # parent of IOError, OSError *and* WindowsError where available
         return None
     
 def generate_launch_description():
@@ -62,46 +98,73 @@ def generate_launch_description():
     print("-----")
 
     EndEff = "true"
-
+    
+    print("Getting Description")
     # UR3e Description
-    ur3e_description_path = os.path.join(get_package_share_directory('ur3e_gazebo_sim'))
-    xacro_file = os.path.join(ur3e_description_path, 'urdf', 'ur3e.urdf.xacro')
-
+    ur3e_description_path = os.path.join(
+        get_package_share_directory('ur3e_gazebo_sim'))
+    # UR3 ROBOT urdf file path:
+    xacro_file = os.path.join(ur3e_description_path,
+                              'urdf',
+                              'ur3e.urdf.xacro')
+    print("Parsing Xacro")
     doc = xacro.parse(open(xacro_file))
     xacro.process_doc(doc, mappings={"layout_1": layout_1,
                                      "layout_2": layout_2,
                                      "EndEff": EndEff,})
+    print("Getting Robot Description")
     robot_description_config = doc.toxml()
     robot_description = {'robot_description': robot_description_config}
 
-    # Spawn in Gazebo
-    spawn_entity = Node(package='gazebo_ros',
-                        executable='spawn_entity.py',
+    # SPAWN ROBOT TO GAZEBO:
+    print("Spawn Entity")
+    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
-                                   '-entity', 'ur3e'],
+                                   '-entity', 'ur3'],
                         output='screen')
-    
-    # Static Transform
-    static_tf = Node(package='tf2_ros',
-                     executable='static_transform_publisher',
-                     name='static_transform_publisher',
-                     output='log',
-                     arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'world', 'base_link'],)
 
-    # Publish the TF
-    robot_state_publisher= Node(package='robot_state_publisher',
-                                executable='robot_state_publisher',
-                                name='robot_state_publisher',
-                                output='both',
-                                parameters=[robot_description],)
+    # ***** STATIC TRANSFORM ***** #
+    # NODE -> Static TF:
+    print("Static TF")
+    static_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="static_transform_publisher",
+        output="log",
+        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
+    )
+    # Publish TF:
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='both',
+        parameters=[
+            robot_description,
+            {"use_sim_time": True}
+        ]
+    )
+    # controllers_yaml = load_yaml('ur3e_gazebo_sim', 'config/ur3e_controller.yaml')
+    # controllers_node = Node(package="controller_manager", executable="ros2_control_node", parameters=[robot_description, controllers_yaml])
     
     # Load controllers for ROS2 control
-    load_controllers = []
-    for controller in ['ur3e_controller', 'joint_state_controller',]:
-        load_controllers += [ExecuteProcess(cmd=['ros2 run controller_manager spawner.py {}'.format(controller)],
-                                            shell=True,
-                                            output='screen',)]
+    # load_controllers = []
+    # for controller in ['ur3e_controller', 'joint_state_controller',]:
+    #     load_controllers += [ExecuteProcess(cmd=['ros2 run controller_manager spawner.py {}'.format(controller)],
+    #                                         shell=True,
+    #                                         output='screen',)]
         
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+    )
+    # Joint TRAJECTORY Controller:
+    joint_trajectory_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["ur3e_controller", "-c", "/controller_manager"],
+    )
+    
     # MoveIt!2 Launch
     # Is there an RViz file?
     rviz_arg = DeclareLaunchArgument('rviz_file', default_value='False', description='Load RViz File')
@@ -127,6 +190,13 @@ def generate_launch_description():
     moveit_controllers = {'moveit_simple_controller_manager': moveit_simple_controllers_yaml,
                           'moveit_controller_manager': 'moveit_simple_controller_manager/MoveItSimpleControllerManager',}
     
+    # Joint Limits
+    joint_limits_yaml = load_yaml('ur3e_moveit', 'config/joint_limits.yaml')
+    joint_limits = {"robot_description_planning": joint_limits_yaml}
+    print(joint_limits)
+    
+    
+
     trajectory_execution = {'moveit_manage_controllers': True,
                             'trajectory_execution.allowed_execution_duration_scaling': 1.2,
                             'trajectory_execution.allowed_goal_duration_margin': 0.5,
@@ -144,10 +214,12 @@ def generate_launch_description():
                                parameters=[robot_description,
                                            robot_description_semantic,
                                            robot_description_kinematics,
+                                           joint_limits,
                                            ompl_planning_pipeline_config,
                                            trajectory_execution,
                                            moveit_controllers,
-                                           Planning_scene_monitor_parameters,])
+                                           Planning_scene_monitor_parameters,
+                                           {"use_sim_time": True},])
     
     # Start RViz Node
     load_RVIZfile = LaunchConfiguration('rviz_file')
@@ -161,7 +233,9 @@ def generate_launch_description():
                           parameters=[robot_description,
                                       robot_description_semantic,
                                       ompl_planning_pipeline_config,
-                                      robot_description_kinematics,],
+                                      robot_description_kinematics,
+                                      joint_limits,
+                                      {"use_sim_time": True},],
                           condition=UnlessCondition(load_RVIZfile),)
     
     # MoveJ Action Interface
@@ -169,7 +243,7 @@ def generate_launch_description():
                            package='ur3e_ros_action_cpp',
                            executable='moveJ_action',
                            output='screen',
-                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics],)
+                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics, joint_limits, {"use_sim_time": True}],)
     
     return LaunchDescription(
         [
@@ -180,9 +254,27 @@ def generate_launch_description():
             static_tf,
             robot_state_publisher,
             
+            # ROS2 Controllers:
             RegisterEventHandler(
                 OnProcessExit(
                     target_action = spawn_entity,
+                    on_exit = [
+                        joint_state_broadcaster_spawner,
+                    ]
+                )
+            ),
+            RegisterEventHandler(
+                OnProcessExit(
+                    target_action = joint_state_broadcaster_spawner,
+                    on_exit = [
+                        joint_trajectory_controller_spawner,
+                    ]
+                )
+            ),
+
+            RegisterEventHandler(
+                OnProcessExit(
+                    target_action = joint_trajectory_controller_spawner,
                     on_exit = [
 
                         # MoveIt!2:
@@ -200,12 +292,12 @@ def generate_launch_description():
                             period=2.0,
                             actions=[
                                 moveJ_interface,
+                                
                             ]
                         ),
-                        
+
                     ]
                 )
             )
         ]
-        + load_controllers
     )

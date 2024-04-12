@@ -6,6 +6,7 @@
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/chomp_planning.yaml
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ur3e.srdf
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ompl_planning.yaml
+/home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/joint_limits.yaml
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/kinematics.yaml
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ament_index/resource_index/package_run_dependencies/ur3e_moveit
 /home/harry/ur3e_ws/install/ur3e_moveit/share/ament_index/resource_index/parent_prefix_path/ur3e_moveit

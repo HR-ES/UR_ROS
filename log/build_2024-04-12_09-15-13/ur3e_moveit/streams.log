@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_moveit': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_moveit -- -j8 -l8
+[0.037s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_moveit' returned '0': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_moveit -- -j8 -l8
+[0.053s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_moveit': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_moveit
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//launch
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//launch/ur3e.launch.py
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//launch/ur3e_action_interface.launch.py
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//launch/test_launch.launch.py
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ur3e_controllers.yaml
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ur3e_moveit2.rviz
+[0.058s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/chomp_planning.yaml
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ur3e.srdf
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/ompl_planning.yaml
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit//config/kinematics.yaml
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ament_index/resource_index/package_run_dependencies/ur3e_moveit
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ament_index/resource_index/parent_prefix_path/ur3e_moveit
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/environment/path.sh
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/environment/path.dsv
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/local_setup.bash
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/local_setup.sh
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/local_setup.zsh
+[0.059s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/local_setup.dsv
+[0.060s] -- Installing: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/package.dsv
+[0.060s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ament_index/resource_index/packages/ur3e_moveit
+[0.060s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/cmake/ur3e_moveitConfig.cmake
+[0.060s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/cmake/ur3e_moveitConfig-version.cmake
+[0.060s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_moveit/share/ur3e_moveit/package.xml
+[0.061s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_moveit' returned '0': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_moveit

@@ -1,0 +1,282 @@
+[0.015s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake /home/harry/ur3e_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur3e_ws/install/ur3e_ros_data
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.207s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.424s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.516s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.856s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.173s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.175s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.194s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.194s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.194s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.194s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.208s] -- Found PythonExtra: .so  
+[1.237s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.251s] -- Added test 'lint_cmake' to check CMake code style
+[1.252s] -- Added test 'xmllint' to check XML markup files
+[1.254s] -- Configuring done
+[1.273s] -- Generating done
+[1.275s] -- Build files have been written to: /home/harry/ur3e_ws/build/ur3e_ros_data
+[1.281s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake /home/harry/ur3e_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur3e_ws/install/ur3e_ros_data
+[1.282s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_data -- -j8 -l8
+[1.313s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.318s] [  2%] Built target ament_cmake_python_copy_ur3e_ros_data
+[1.463s] running egg_info
+[1.464s] creating ur3e_ros_data.egg-info
+[1.464s] writing ur3e_ros_data.egg-info/PKG-INFO
+[1.464s] writing dependency_links to ur3e_ros_data.egg-info/dependency_links.txt
+[1.464s] writing top-level names to ur3e_ros_data.egg-info/top_level.txt
+[1.464s] writing manifest file 'ur3e_ros_data.egg-info/SOURCES.txt'
+[1.465s] reading manifest file 'ur3e_ros_data.egg-info/SOURCES.txt'
+[1.466s] writing manifest file 'ur3e_ros_data.egg-info/SOURCES.txt'
+[1.466s] [  2%] Built target ur3e_ros_data__rosidl_generator_type_description
+[1.473s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.480s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.484s] [  6%] Built target ament_cmake_python_build_ur3e_ros_data_egg
+[1.812s] [  6%] Built target ur3e_ros_data__cpp
+[1.872s] [  9%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c.o[0m
+[1.873s] [ 11%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__description.c.o[0m
+[1.874s] [ 13%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__functions.c.o[0m
+[1.874s] [ 15%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__type_support.c.o[0m
+[1.874s] [ 20%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__type_support.c.o[0m
+[1.874s] [ 20%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__functions.c.o[0m
+[1.993s] [ 22%] [32m[1mLinking C shared library libur3e_ros_data__rosidl_generator_c.so[0m
+[2.020s] [ 22%] Built target ur3e_ros_data__rosidl_generator_c
+[2.028s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.028s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.033s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.034s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.034s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.034s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.347s] [ 40%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur3e_ros_data/action/detail/move_j__type_support.c.o[0m
+[2.347s] [ 40%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur3e_ros_data/msg/detail/joint_pose__type_support.c.o[0m
+[2.384s] [ 45%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur3e_ros_data/msg/detail/joint_pose__type_support_c.cpp.o[0m
+[2.384s] [ 45%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur3e_ros_data/action/detail/move_j__type_support_c.cpp.o[0m
+[2.402s] [ 47%] [32m[1mLinking C shared library libur3e_ros_data__rosidl_typesupport_introspection_c.so[0m
+[2.432s] [ 47%] Built target ur3e_ros_data__rosidl_typesupport_introspection_c
+[2.441s] [ 52%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o[0m
+[2.442s] [ 52%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o[0m
+[2.460s] [ 54%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur3e_ros_data/action/move_j__type_support.cpp.o[0m
+[2.460s] [ 56%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur3e_ros_data/msg/joint_pose__type_support.cpp.o[0m
+[2.499s] [ 59%] [32m[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_c.so[0m
+[2.536s] [ 59%] Built target ur3e_ros_data__rosidl_typesupport_c
+[2.563s] [ 63%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur3e_ros_data/action/detail/move_j__type_support.cpp.o[0m
+[2.564s] [ 63%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur3e_ros_data/msg/detail/joint_pose__type_support.cpp.o[0m
+[2.656s] [ 65%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur3e_ros_data/msg/detail/dds_fastrtps/joint_pose__type_support.cpp.o[0m
+[2.657s] [ 68%] [32mBuilding CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur3e_ros_data/action/detail/dds_fastrtps/move_j__type_support.cpp.o[0m
+[2.790s] [ 70%] [32m[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_fastrtps_c.so[0m
+[2.851s] [ 70%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_c
+[3.121s] [ 72%] [32m[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_cpp.so[0m
+[3.179s] [ 72%] Built target ur3e_ros_data__rosidl_typesupport_cpp
+[3.272s] [ 75%] [32m[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_introspection_cpp.so[0m
+[3.323s] [ 75%] Built target ur3e_ros_data__rosidl_typesupport_introspection_cpp
+[3.348s] [ 77%] [32m[1mLinking CXX shared library libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.398s] [ 77%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_cpp
+[3.410s] [ 77%] Built target ur3e_ros_data
+[3.422s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.000s] [ 79%] Built target ur3e_ros_data__py
+[4.012s] [ 84%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c.o[0m
+[4.013s] [ 84%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c.o[0m
+[4.124s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so[0m
+[4.156s] [ 86%] Built target ur3e_ros_data__rosidl_generator_py
+[4.169s] [ 93%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.169s] [ 93%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.169s] [ 93%] [32mBuilding C object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_c.c.o[0m
+[4.256s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.257s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.261s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.284s] [100%] Built target ur3e_ros_data__rosidl_typesupport_c__pyext
+[4.284s] [100%] Built target ur3e_ros_data__rosidl_typesupport_introspection_c__pyext
+[4.290s] [100%] Built target ur3e_ros_data__rosidl_typesupport_fastrtps_c__pyext
+[4.298s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_data -- -j8 -l8
+[4.354s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_data
+[4.359s] -- Install configuration: ""
+[4.359s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ament_index/resource_index/rosidl_interfaces/ur3e_ros_data
+[4.359s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.json
+[4.359s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.json
+[4.359s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.359s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.359s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__functions.c
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__struct.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__description.c
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__functions.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.c
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/move_j.h
+[4.360s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.360s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.c
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__struct.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__functions.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.h
+[4.360s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__functions.c
+[4.361s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__description.c
+[4.361s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/joint_pose.h
+[4.361s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_generator_c__visibility_control.h
+[4.361s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/library_path.sh
+[4.361s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/library_path.dsv
+[4.361s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_c.so
+[4.361s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_c.so" to ""
+[4.361s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_fastrtps_c.h
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_c.so
+[4.362s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_c.so" to ""
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_introspection_c.h
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.c
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.362s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.362s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.c
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_c.so
+[4.363s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_c.so" to ""
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_c.so
+[4.363s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_c.so" to ""
+[4.363s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.363s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/move_j.hpp
+[4.363s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__builder.hpp
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__traits.hpp
+[4.363s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__struct.hpp
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__traits.hpp
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__builder.hpp
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__struct.hpp
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/joint_pose.hpp
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_fastrtps_cpp.hpp
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/dds_fastrtps
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.364s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/dds_fastrtps
+[4.364s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so
+[4.365s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.365s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data
+[4.365s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action
+[4.365s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail
+[4.365s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__rosidl_typesupport_introspection_cpp.hpp
+[4.365s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/move_j__type_support.cpp
+[4.365s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg
+[4.365s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail
+[4.365s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__type_support.cpp
+[4.365s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.365s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_cpp.so
+[4.366s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_introspection_cpp.so" to ""
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_cpp.so
+[4.366s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_typesupport_cpp.so" to ""
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/pythonpath.sh
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/pythonpath.dsv
+[4.366s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/PKG-INFO
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/top_level.txt
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.366s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.366s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_introspection_c.c
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/__init__.py
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.367s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/__init__.py
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j_s.c
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j.py
+[4.367s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose.py
+[4.367s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/__init__.py
+[4.368s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose_s.c
+[4.368s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_c.c
+[4.368s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so
+[4.395s] Listing '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data'...
+[4.395s] Compiling '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/__init__.py'...
+[4.395s] Listing '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action'...
+[4.395s] Compiling '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/__init__.py'...
+[4.395s] Compiling '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/action/_move_j.py'...
+[4.395s] Listing '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg'...
+[4.395s] Compiling '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/__init__.py'...
+[4.395s] Compiling '/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/msg/_joint_pose.py'...
+[4.398s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.398s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.398s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.398s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.398s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.399s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages/ur3e_ros_data/ur3e_ros_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_py.so
+[4.399s] -- Set runtime path of "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/libur3e_ros_data__rosidl_generator_py.so" to ""
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.idl
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.idl
+[4.399s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/msg/JointPose.msg
+[4.399s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/action/MoveJ.action
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ament_index/resource_index/package_run_dependencies/ur3e_ros_data
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ament_index/resource_index/parent_prefix_path/ur3e_ros_data
+[4.399s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/ament_prefix_path.sh
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/ament_prefix_path.dsv
+[4.399s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/path.sh
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/environment/path.dsv
+[4.399s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.bash
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.sh
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.zsh
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/local_setup.dsv
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.dsv
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ament_index/resource_index/packages/ur3e_ros_data
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cExport.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cExport-noconfig.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cExport.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cExport.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.400s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cExport-noconfig.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_cppExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cppExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cppExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_data__rosidl_typesupport_cppExport-noconfig.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_pyExport.cmake
+[4.401s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/export_ur3e_ros_data__rosidl_generator_pyExport-noconfig.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_libraries-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ament_cmake_export_targets-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_dataConfig.cmake
+[4.402s] -- Installing: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake/ur3e_ros_dataConfig-version.cmake
+[4.402s] -- Up-to-date: /home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/package.xml
+[4.404s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --install /home/harry/ur3e_ws/build/ur3e_ros_data

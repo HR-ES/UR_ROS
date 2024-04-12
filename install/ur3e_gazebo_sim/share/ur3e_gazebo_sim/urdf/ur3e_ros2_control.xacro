@@ -9,6 +9,7 @@
         <xacro:if value="${EndEff}">
             <gazebo>
                 <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+                    <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
                     <parameters>$(find ur3e_gazebo_sim)/config/ur3e_controller.yaml</parameters>
                 </plugin>
             </gazebo>
@@ -33,7 +34,7 @@
                 <state_interface name="effort"/>
             </joint>
 
-            <joint name="${prefix}shoulder_list_joint">
+            <joint name="${prefix}shoulder_lift_joint">
                 <command_interface name="position">
                     <param name="min">${-2*pi}</param>
                     <param name='max'>${2*pi}</param>

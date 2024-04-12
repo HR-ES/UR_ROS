@@ -1,15 +1,30 @@
 import os
 import xacro
 import yaml
+import math
 
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch.actions import ExecuteProcess, IncludeLaunchDescription, RegisterEventHandler, DeclareLaunchArgument, TimerAction
 from launch.conditions import IfCondition, UnlessCondition
 from launch.event_handlers import OnProcessExit
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.substitutions import FindPackageShare
 from ament_index_python.packages import get_package_share_directory
+
+def construct_angle_radians(loader, node):
+    """Utility function to construct radian values from yaml."""
+    value = loader.construct_scalar(node)
+    try:
+        return float(value)
+    except SyntaxError:
+        raise Exception("invalid expression: %s" % value)
+
+
+def construct_angle_degrees(loader, node):
+    """Utility function for converting degrees into radians from yaml."""
+    return math.radians(construct_angle_radians(loader, node))
 
 def load_file(package_name, file_path):
     package_path = get_package_share_directory(package_name)
@@ -21,14 +36,35 @@ def load_file(package_name, file_path):
     except EnvironmentError:
         return None
 
+
 def load_yaml(package_name, file_path):
     package_path = get_package_share_directory(package_name)
     absolute_file_path = os.path.join(package_path, file_path)
 
     try:
-        with open(absolute_file_path, 'r') as file:
+        yaml.SafeLoader.add_constructor("!radians", construct_angle_radians)
+        yaml.SafeLoader.add_constructor("!degrees", construct_angle_degrees)
+    except Exception:
+        raise Exception("yaml support not available; install python-yaml")
+
+    try:
+        with open(absolute_file_path) as file:
             return yaml.safe_load(file)
-    except EnvironmentError:
+    except OSError:  # parent of IOError, OSError *and* WindowsError where available
+        return None
+
+
+def load_yaml_abs(absolute_file_path):
+    try:
+        yaml.SafeLoader.add_constructor("!radians", construct_angle_radians)
+        yaml.SafeLoader.add_constructor("!degrees", construct_angle_degrees)
+    except Exception:
+        raise Exception("yaml support not available; install python-yaml")
+
+    try:
+        with open(absolute_file_path) as file:
+            return yaml.safe_load(file)
+    except OSError:  # parent of IOError, OSError *and* WindowsError where available
         return None
     
 def generate_launch_description():
@@ -154,6 +190,11 @@ def generate_launch_description():
     moveit_controllers = {'moveit_simple_controller_manager': moveit_simple_controllers_yaml,
                           'moveit_controller_manager': 'moveit_simple_controller_manager/MoveItSimpleControllerManager',}
     
+    # Joint Limits
+    joint_limits_yaml = load_yaml('ur3e_moveit', 'config/joint_limits.yaml')
+    joint_limits = {"robot_description_planning": joint_limits_yaml}
+    print(joint_limits)
+    
     
 
     trajectory_execution = {'moveit_manage_controllers': True,
@@ -173,6 +214,7 @@ def generate_launch_description():
                                parameters=[robot_description,
                                            robot_description_semantic,
                                            robot_description_kinematics,
+                                           joint_limits,
                                            ompl_planning_pipeline_config,
                                            trajectory_execution,
                                            moveit_controllers,
@@ -192,6 +234,7 @@ def generate_launch_description():
                                       robot_description_semantic,
                                       ompl_planning_pipeline_config,
                                       robot_description_kinematics,
+                                      joint_limits,
                                       {"use_sim_time": True},],
                           condition=UnlessCondition(load_RVIZfile),)
     
@@ -200,7 +243,7 @@ def generate_launch_description():
                            package='ur3e_ros_action_cpp',
                            executable='moveJ_action',
                            output='screen',
-                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics, {"use_sim_time": True}],)
+                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics, joint_limits, {"use_sim_time": True}],)
     
     return LaunchDescription(
         [
@@ -236,7 +279,7 @@ def generate_launch_description():
 
                         # MoveIt!2:
                         TimerAction(
-                            period=2.0,
+                            period=5.0,
                             actions=[
                                 rviz_arg,
                                 rviz_node_full,

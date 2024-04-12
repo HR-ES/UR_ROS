@@ -9,7 +9,9 @@
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_common.xacro
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_ros2_control.xacro
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_macro.urdf.xacro
+/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur.urdf.xacro
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e_transmission.xacro
+/home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur.ros2_control.xacro
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/urdf/ur3e.urdf.xacro
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e.world
 /home/harry/ur3e_ws/install/ur3e_gazebo_sim/share/ur3e_gazebo_sim/worlds/ur3e_2.world

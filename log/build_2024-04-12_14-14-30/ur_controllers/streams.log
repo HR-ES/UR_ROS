@@ -1,0 +1,39 @@
+[0.006s] Invoking command in '/home/harry/ur3e_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur_dashboard_msgs:/home/harry/ur3e_ws/install/ur_moveit_config:/home/harry/ur3e_ws/install/ur_description:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron PYTHONPATH=/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/harry/ur3e_ws/src/ur_robot_driver/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/harry/ur3e_ws/install/ur_controllers
+[0.016s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.113s] -- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+[0.114s] -- Found controller_interface: 3.24.0 (/opt/ros/iron/share/controller_interface/cmake)
+[0.131s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.707s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.713s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.728s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.734s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.741s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.891s] -- Found joint_trajectory_controller: 3.22.0 (/opt/ros/iron/share/joint_trajectory_controller/cmake)
+[0.952s] -- Found parameter_traits: 0.3.7 (/opt/ros/iron/share/parameter_traits/cmake)
+[1.028s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[1.061s] -- Found ur_dashboard_msgs: 2.4.4 (/home/harry/ur3e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.174s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[1.174s]   By not providing "Findur_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[1.174s]   asked CMake to find a package configuration file provided by "ur_msgs", but
+[1.174s]   CMake did not find one.
+[1.174s] 
+[1.174s]   Could not find a package configuration file provided by "ur_msgs" with any
+[1.174s]   of the following names:
+[1.174s] 
+[1.174s]     ur_msgsConfig.cmake
+[1.174s]     ur_msgs-config.cmake
+[1.174s] 
+[1.174s]   Add the installation prefix of "ur_msgs" to CMAKE_PREFIX_PATH or set
+[1.174s]   "ur_msgs_DIR" to a directory containing one of the above files.  If
+[1.174s]   "ur_msgs" provides a separate development package or SDK, be sure it has
+[1.174s]   been installed.
+[1.174s] 
+[1.174s] [0m
+[1.175s] -- Configuring incomplete, errors occurred!
+[1.175s] See also "/home/harry/ur3e_ws/build/ur_controllers/CMakeFiles/CMakeOutput.log".
+[1.180s] Invoked command in '/home/harry/ur3e_ws/build/ur_controllers' returned '1': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur_dashboard_msgs:/home/harry/ur3e_ws/install/ur_moveit_config:/home/harry/ur3e_ws/install/ur_description:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron PYTHONPATH=/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/harry/ur3e_ws/src/ur_robot_driver/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/harry/ur3e_ws/install/ur_controllers

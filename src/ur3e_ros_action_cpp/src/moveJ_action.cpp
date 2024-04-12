@@ -93,7 +93,7 @@ class MoveJ_ActionServer : public rclcpp::Node
             // Apply requested speed to moveit speed scaling factor
             move_group_interface.setMaxVelocityScalingFactor(SPEED);
             RCLCPP_INFO(this->get_logger(), "Applying Accel Scaling to MoveIt!2 Interface...");
-            move_group_interface.setMaxAccelerationScalingFactor(1.0);
+            move_group_interface.setMaxAccelerationScalingFactor(10.0);
             //No feedback required
 
             RCLCPP_INFO(this->get_logger(), "Declaring Result Variable....");

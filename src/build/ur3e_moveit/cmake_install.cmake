@@ -43,9 +43,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_moveit" TYPE DIRECTORY FILES
-    "/home/harry/ur3e_ws/src/ur3e_moveit/config"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_moveit/" TYPE DIRECTORY FILES
     "/home/harry/ur3e_ws/src/ur3e_moveit/launch"
+    "/home/harry/ur3e_ws/src/ur3e_moveit/config"
     )
 endif()
 
