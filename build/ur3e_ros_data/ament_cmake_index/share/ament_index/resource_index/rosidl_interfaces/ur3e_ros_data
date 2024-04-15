@@ -2,5 +2,9 @@ action/MoveJ.action
 action/MoveJ.idl
 action/MoveL.action
 action/MoveL.idl
+action/MoveXYZ.action
+action/MoveXYZ.idl
+action/MoveXYZW.action
+action/MoveXYZW.idl
 msg/JointPose.idl
 msg/JointPose.msg

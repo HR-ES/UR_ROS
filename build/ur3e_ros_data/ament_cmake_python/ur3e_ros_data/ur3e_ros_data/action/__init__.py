@@ -12,3 +12,17 @@ from ur3e_ros_data.action._move_l import MoveL_GetResult_Response  # noqa: F401
 from ur3e_ros_data.action._move_l import MoveL_SendGoal_Event  # noqa: F401
 from ur3e_ros_data.action._move_l import MoveL_SendGoal_Request  # noqa: F401
 from ur3e_ros_data.action._move_l import MoveL_SendGoal_Response  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_GetResult_Event  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_GetResult_Request  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_GetResult_Response  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_SendGoal_Event  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_SendGoal_Request  # noqa: F401
+from ur3e_ros_data.action._move_xyz import MoveXYZ_SendGoal_Response  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_GetResult_Event  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_GetResult_Request  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_GetResult_Response  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_SendGoal_Event  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_SendGoal_Request  # noqa: F401
+from ur3e_ros_data.action._move_xyzw import MoveXYZW_SendGoal_Response  # noqa: F401

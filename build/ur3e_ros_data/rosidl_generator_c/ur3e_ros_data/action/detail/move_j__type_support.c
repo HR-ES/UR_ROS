@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "ur3e_ros_data/action/detail/move_j__functions.h"
 #include "ur3e_ros_data/action/detail/move_j__struct.h"
 #include "ur3e_ros_data/action/detail/move_j__type_support.h"
+#include "ur3e_ros_data/action/detail/move_j__functions.h"
 
 #ifdef __cplusplus
 extern "C"

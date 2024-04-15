@@ -72,11 +72,15 @@ ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_dat
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/_joint_pose.py
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_j.py
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_l.py
+ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyzw.py
+ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyz.py
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/__init__.py
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/__init__.py
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c
 ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c
+ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c
+ur3e_ros_data__py/CMakeFiles/ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c
 
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/iron/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_py/__init__.py
@@ -94,6 +98,8 @@ rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ur3e_ros_data/msg/JointPose.idl
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ur3e_ros_data/action/MoveJ.idl
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ur3e_ros_data/action/MoveL.idl
+rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ur3e_ros_data/action/MoveXYZW.idl
+rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ur3e_ros_data/action/MoveXYZ.idl
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/iron/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/iron/share/builtin_interfaces/msg/Time.idl
@@ -120,6 +126,12 @@ rosidl_generator_py/ur3e_ros_data/action/_move_j.py: rosidl_generator_py/ur3e_ro
 rosidl_generator_py/ur3e_ros_data/action/_move_l.py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_l.py
 
+rosidl_generator_py/ur3e_ros_data/action/_move_xyzw.py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_xyzw.py
+
+rosidl_generator_py/ur3e_ros_data/action/_move_xyz.py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_xyz.py
+
 rosidl_generator_py/ur3e_ros_data/msg/__init__.py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/msg/__init__.py
 
@@ -135,6 +147,12 @@ rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c: rosidl_generator_py/ur3e_r
 rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c
 
+rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c
+
+rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c
+
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_c.c
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_fastrtps_c.c
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/_ur3e_ros_data_s.ep.rosidl_typesupport_introspection_c.c
@@ -143,6 +161,10 @@ ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_j.py
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_l.py
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c
+ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyz.py
+ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c
+ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyzw.py
+ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/__init__.py
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/_joint_pose.py
 ur3e_ros_data__py: rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c

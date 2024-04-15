@@ -249,6 +249,20 @@ def generate_launch_description():
                            output='screen',
                            parameters=[robot_description, robot_description_semantic, robot_description_kinematics, joint_limits, {"use_sim_time": True}],)
     
+    # MoveXYZW Action Interface
+    moveXYZW_interface = Node(name='moveXYZW_action',
+                           package='ur3e_ros_action_cpp',
+                           executable='moveXYZW_action',
+                           output='screen',
+                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics, joint_limits, {"use_sim_time": True}],)
+    
+    # MoveXYZ Action Interface
+    moveXYZ_interface = Node(name='moveXYZ_action',
+                           package='ur3e_ros_action_cpp',
+                           executable='moveXYZ_action',
+                           output='screen',
+                           parameters=[robot_description, robot_description_semantic, robot_description_kinematics, joint_limits, {"use_sim_time": True}],)
+    
     return LaunchDescription(
         [
             # Gazebo nodes:
@@ -297,6 +311,8 @@ def generate_launch_description():
                             actions=[
                                 moveJ_interface,
                                 moveL_interface,
+                                moveXYZW_interface,
+                                moveXYZ_interface,
                                 
                             ]
                         ),

@@ -55,4 +55,32 @@ install(TARGETS
   moveL_action
   DESTINATION lib/${PROJECT_NAME})
 
+  # moveXYZW_action.cpp:
+add_executable(moveXYZW_action src/moveXYZW_action.cpp)
+ament_target_dependencies(
+  moveXYZW_action
+  moveit_ros_planning_interface
+  moveit_core
+  std_msgs
+  rclcpp
+  rclcpp_action
+  ur3e_ros_data)
+install(TARGETS
+  moveXYZW_action
+  DESTINATION lib/${PROJECT_NAME})
+
+    # moveXYZ_action.cpp:
+add_executable(moveXYZ_action src/moveXYZ_action.cpp)
+ament_target_dependencies(
+  moveXYZ_action
+  moveit_ros_planning_interface
+  moveit_core
+  std_msgs
+  rclcpp
+  rclcpp_action
+  ur3e_ros_data)
+install(TARGETS
+  moveXYZ_action
+  DESTINATION lib/${PROJECT_NAME})
+
 ament_package()

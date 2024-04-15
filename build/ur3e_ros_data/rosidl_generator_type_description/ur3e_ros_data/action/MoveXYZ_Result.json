@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur3e_ros_data/action/MoveXYZ_Result",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur3e_ros_data/action/MoveXYZ_Result",
+      "hash_string": "RIHS01_f890530b2e08c512bd5eb28e36f4b9483c90e1eadb1bab0ef09c49eb628108b9"
+    }
+  ]
+}

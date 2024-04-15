@@ -223,6 +223,32 @@ moveL_action/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveL_action.dir/build.make CMakeFiles/moveL_action.dir/build
 .PHONY : moveL_action/fast
 
+#=============================================================================
+# Target rules for targets named moveXYZW_action
+
+# Build rule for target.
+moveXYZW_action: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveXYZW_action
+.PHONY : moveXYZW_action
+
+# fast build rule for target.
+moveXYZW_action/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZW_action.dir/build.make CMakeFiles/moveXYZW_action.dir/build
+.PHONY : moveXYZW_action/fast
+
+#=============================================================================
+# Target rules for targets named moveXYZ_action
+
+# Build rule for target.
+moveXYZ_action: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveXYZ_action
+.PHONY : moveXYZ_action
+
+# fast build rule for target.
+moveXYZ_action/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZ_action.dir/build.make CMakeFiles/moveXYZ_action.dir/build
+.PHONY : moveXYZ_action/fast
+
 src/moveJ_action.o: src/moveJ_action.cpp.o
 .PHONY : src/moveJ_action.o
 
@@ -271,6 +297,54 @@ src/moveL_action.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveL_action.dir/build.make CMakeFiles/moveL_action.dir/src/moveL_action.cpp.s
 .PHONY : src/moveL_action.cpp.s
 
+src/moveXYZW_action.o: src/moveXYZW_action.cpp.o
+.PHONY : src/moveXYZW_action.o
+
+# target to build an object file
+src/moveXYZW_action.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZW_action.dir/build.make CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.o
+.PHONY : src/moveXYZW_action.cpp.o
+
+src/moveXYZW_action.i: src/moveXYZW_action.cpp.i
+.PHONY : src/moveXYZW_action.i
+
+# target to preprocess a source file
+src/moveXYZW_action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZW_action.dir/build.make CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.i
+.PHONY : src/moveXYZW_action.cpp.i
+
+src/moveXYZW_action.s: src/moveXYZW_action.cpp.s
+.PHONY : src/moveXYZW_action.s
+
+# target to generate assembly for a file
+src/moveXYZW_action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZW_action.dir/build.make CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.s
+.PHONY : src/moveXYZW_action.cpp.s
+
+src/moveXYZ_action.o: src/moveXYZ_action.cpp.o
+.PHONY : src/moveXYZ_action.o
+
+# target to build an object file
+src/moveXYZ_action.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZ_action.dir/build.make CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.o
+.PHONY : src/moveXYZ_action.cpp.o
+
+src/moveXYZ_action.i: src/moveXYZ_action.cpp.i
+.PHONY : src/moveXYZ_action.i
+
+# target to preprocess a source file
+src/moveXYZ_action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZ_action.dir/build.make CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.i
+.PHONY : src/moveXYZ_action.cpp.i
+
+src/moveXYZ_action.s: src/moveXYZ_action.cpp.s
+.PHONY : src/moveXYZ_action.s
+
+# target to generate assembly for a file
+src/moveXYZ_action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveXYZ_action.dir/build.make CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.s
+.PHONY : src/moveXYZ_action.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... ur3e_ros_action_cpp_uninstall"
 	@echo "... moveJ_action"
 	@echo "... moveL_action"
+	@echo "... moveXYZW_action"
+	@echo "... moveXYZ_action"
 	@echo "... src/moveJ_action.o"
 	@echo "... src/moveJ_action.i"
 	@echo "... src/moveJ_action.s"
 	@echo "... src/moveL_action.o"
 	@echo "... src/moveL_action.i"
 	@echo "... src/moveL_action.s"
+	@echo "... src/moveXYZW_action.o"
+	@echo "... src/moveXYZW_action.i"
+	@echo "... src/moveXYZW_action.s"
+	@echo "... src/moveXYZ_action.o"
+	@echo "... src/moveXYZ_action.i"
+	@echo "... src/moveXYZ_action.s"
 .PHONY : help
 
 

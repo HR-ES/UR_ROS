@@ -3,6 +3,8 @@
   "non_idl_tuples": [
     "/home/harry/ur3e_ws/src/ur3e_ros_data:msg/JointPose.msg",
     "/home/harry/ur3e_ws/src/ur3e_ros_data:action/MoveJ.action",
-    "/home/harry/ur3e_ws/src/ur3e_ros_data:action/MoveL.action"
+    "/home/harry/ur3e_ws/src/ur3e_ros_data:action/MoveL.action",
+    "/home/harry/ur3e_ws/src/ur3e_ros_data:action/MoveXYZW.action",
+    "/home/harry/ur3e_ws/src/ur3e_ros_data:action/MoveXYZ.action"
   ]
 }

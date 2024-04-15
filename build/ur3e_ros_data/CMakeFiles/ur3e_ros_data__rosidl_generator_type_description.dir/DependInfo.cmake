@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveJ.json" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json"
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveL.json" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveXYZ.json" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveXYZW.json" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json"
   )
 
 

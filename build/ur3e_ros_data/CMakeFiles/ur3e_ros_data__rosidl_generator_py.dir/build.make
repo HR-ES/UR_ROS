@@ -111,11 +111,41 @@ CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c.s
 
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o: rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c > CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o: rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c > CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.s
+
 # Object files for target ur3e_ros_data__rosidl_generator_py
 ur3e_ros_data__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c.o" \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c.o" \
-"CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c.o"
+"CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o"
 
 # External object files for target ur3e_ros_data__rosidl_generator_py
 ur3e_ros_data__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -123,6 +153,8 @@ ur3e_ros_data__rosidl_generator_py_EXTERNAL_OBJECTS =
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c.o
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c.o
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c.o
+rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyzw_s.c.o
+rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/rosidl_generator_py/ur3e_ros_data/action/_move_xyz_s.c.o
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/build.make
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: libur3e_ros_data__rosidl_typesupport_c.so
@@ -143,7 +175,7 @@ rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: /opt
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: /opt/ros/iron/lib/librosidl_runtime_c.so
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: /opt/ros/iron/lib/librcutils.so
 rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so: CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/ur3e_ros_data/libur3e_ros_data__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur3e_ros_data__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -270,4 +270,10 @@ CMakeFiles/ur3e_ros_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur
  /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h
  /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__struct.h
  /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h
+ /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h
 

@@ -15,6 +15,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointPose.msg"
   "action/MoveJ.action"
   "action/MoveL.action"
+  "action/MoveXYZW.action"
+  "action/MoveXYZ.action"
 )
 
 if(BUILD_TESTING)

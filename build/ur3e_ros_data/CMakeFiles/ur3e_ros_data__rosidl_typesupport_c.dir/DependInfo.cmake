@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o" "gcc" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o.d"
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.o" "gcc" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.o.d"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o" "gcc" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o.d"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o" "gcc" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o.d"
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o" "gcc" "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o.d"
   )
 
@@ -17,6 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp"
   "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp"
+  "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp" "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp"
   )
 
 

@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target moveXYZ_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveXYZW_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveL_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.o[0m
+[ 50%] Built target moveL_action
+[ 75%] Built target moveJ_action

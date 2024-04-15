@@ -1,5 +1,7 @@
 /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveJ_action
 /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveL_action
+/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveXYZW_action
+/home/harry/ur3e_ws/install/ur3e_ros_action_cpp/lib/ur3e_ros_action_cpp/moveXYZ_action
 /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ament_index/resource_index/package_run_dependencies/ur3e_ros_action_cpp
 /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ament_index/resource_index/parent_prefix_path/ur3e_ros_action_cpp
 /home/harry/ur3e_ws/install/ur3e_ros_action_cpp/share/ur3e_ros_action_cpp/environment/ament_prefix_path.sh

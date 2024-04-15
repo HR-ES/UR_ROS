@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target moveXYZ_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveXYZW_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveL_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.o[0m
+[ 50%] Built target moveL_action
+[ 75%] Built target moveJ_action
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZW_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveXYZW_ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZW_action.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgoal[m[K’
+   59 |             JointGoal = goal->[01;31m[Kgoal[m[K;
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZW_action.cpp:[m[K In member function ‘[01m[Kvoid MoveXYZW_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveXYZW> >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZW_action.cpp:89:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgoal[m[K’
+   89 |             auto JointGoal = goal->[01;31m[Kgoal[m[K;
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZ_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveXYZW_ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZ_action.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgoal[m[K’
+   59 |             JointGoal = goal->[01;31m[Kgoal[m[K;
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZ_action.cpp:[m[K In member function ‘[01m[Kvoid MoveXYZW_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveXYZW> >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveXYZ_action.cpp:89:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct ur3e_ros_data::action::MoveXYZW_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgoal[m[K’
+   89 |             auto JointGoal = goal->[01;31m[Kgoal[m[K;
+      |                                    [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/moveXYZW_action.dir/build.make:76: CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/moveXYZW_action.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/moveXYZ_action.dir/build.make:76: CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/moveXYZ_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

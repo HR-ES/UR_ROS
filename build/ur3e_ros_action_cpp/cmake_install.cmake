@@ -83,6 +83,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp" TYPE EXECUTABLE FILES "/home/harry/ur3e_ws/build/ur3e_ros_action_cpp/moveXYZW_action")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action"
+         OLD_RPATH "/opt/ros/iron/lib:/home/harry/ur3e_ws/install/ur3e_ros_data/lib:/opt/ros/iron/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZW_action")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp" TYPE EXECUTABLE FILES "/home/harry/ur3e_ws/build/ur3e_ros_action_cpp/moveXYZ_action")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action"
+         OLD_RPATH "/opt/ros/iron/lib:/home/harry/ur3e_ws/install/ur3e_ros_data/lib:/opt/ros/iron/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3e_ros_action_cpp/moveXYZ_action")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_ros_action_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur3e_ros_action_cpp")
 endif()
 

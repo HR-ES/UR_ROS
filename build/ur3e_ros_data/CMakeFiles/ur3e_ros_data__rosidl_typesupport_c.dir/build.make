@@ -78,6 +78,8 @@ rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: /opt/ros/ir
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: rosidl_adapter/ur3e_ros_data/msg/JointPose.idl
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: rosidl_adapter/ur3e_ros_data/action/MoveJ.idl
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: rosidl_adapter/ur3e_ros_data/action/MoveL.idl
+rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: rosidl_adapter/ur3e_ros_data/action/MoveXYZW.idl
+rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: rosidl_adapter/ur3e_ros_data/action/MoveXYZ.idl
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: /opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: /opt/ros/iron/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp: /opt/ros/iron/share/builtin_interfaces/msg/Time.idl
@@ -94,6 +96,12 @@ rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp: rosidl_types
 
 rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp: rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp
+
+rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp: rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp
+
+rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp: rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp
 
 CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o: rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp
@@ -137,11 +145,41 @@ CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp -o CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.s
 
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o: rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o -MF CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o.d -o CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp
+
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp > CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.i
+
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp -o CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.s
+
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o: rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o -MF CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o.d -o CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp
+
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp > CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.i
+
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp -o CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.s
+
 # Object files for target ur3e_ros_data__rosidl_typesupport_c
 ur3e_ros_data__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o" \
 "CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o" \
-"CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.o"
+"CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o"
 
 # External object files for target ur3e_ros_data__rosidl_typesupport_c
 ur3e_ros_data__rosidl_typesupport_c_EXTERNAL_OBJECTS =
@@ -149,6 +187,8 @@ ur3e_ros_data__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp.o
 libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp.o
 libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp.o
+libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp.o
+libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp.o
 libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/build.make
 libur3e_ros_data__rosidl_typesupport_c.so: libur3e_ros_data__rosidl_generator_c.so
 libur3e_ros_data__rosidl_typesupport_c.so: /opt/ros/iron/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -163,7 +203,7 @@ libur3e_ros_data__rosidl_typesupport_c.so: /opt/ros/iron/lib/libunique_identifie
 libur3e_ros_data__rosidl_typesupport_c.so: /opt/ros/iron/lib/librosidl_runtime_c.so
 libur3e_ros_data__rosidl_typesupport_c.so: /opt/ros/iron/lib/librcutils.so
 libur3e_ros_data__rosidl_typesupport_c.so: CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libur3e_ros_data__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libur3e_ros_data__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +216,8 @@ CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/clean:
 
 CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/ur3e_ros_data/action/move_j__type_support.cpp
 CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/ur3e_ros_data/action/move_l__type_support.cpp
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/ur3e_ros_data/action/move_xyz__type_support.cpp
+CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/ur3e_ros_data/action/move_xyzw__type_support.cpp
 CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/ur3e_ros_data/msg/joint_pose__type_support.cpp
 	cd /home/harry/ur3e_ws/build/ur3e_ros_data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/ur3e_ws/src/ur3e_ros_data /home/harry/ur3e_ws/src/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data /home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur3e_ros_data__rosidl_typesupport_c.dir/depend

@@ -1,0 +1,73 @@
+[0.006s] Invoking command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur_moveit_config:/home/harry/ur3e_ws/install/ur_description:/home/harry/ur3e_ws/install/ur_dashboard_msgs:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_new_moveit_config:/home/harry/ur3e_ws/install/ur3e_moveit_config:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron LD_LIBRARY_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data/lib:/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j8 -l8
+[0.023s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.121s] -- Found ur3e_ros_data: 0.0.0 (/home/harry/ur3e_ws/install/ur3e_ros_data/share/ur3e_ros_data/cmake)
+[0.136s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.333s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.391s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.392s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] -- Found rclcpp_action: 21.0.5 (/opt/ros/iron/share/rclcpp_action/cmake)
+[0.595s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.650s] -- Found moveit_core: 2.8.0 (/opt/ros/iron/share/moveit_core/cmake)
+[0.660s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.671s] -- Found parameter_traits: 0.3.7 (/opt/ros/iron/share/parameter_traits/cmake)
+[0.680s] -- Found rclcpp_lifecycle: 21.0.5 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[0.745s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.795s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.024s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.795s] -- Found moveit_ros_planning_interface: 2.8.0 (/opt/ros/iron/share/moveit_ros_planning_interface/cmake)
+[1.798s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.867s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.225s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.377s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.586s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.638s] -- Configured cppcheck include dirs: 
+[2.638s] -- Configured cppcheck exclude dirs and/or files: 
+[2.639s] -- Added test 'lint_cmake' to check CMake code style
+[2.639s] -- Added test 'uncrustify' to check C / C++ code style
+[2.639s] -- Configured uncrustify additional arguments: 
+[2.639s] -- Added test 'xmllint' to check XML markup files
+[2.640s] -- Configuring done
+[2.679s] -- Generating done
+[2.680s] -- Build files have been written to: /home/harry/ur3e_ws/build/ur3e_ros_action_cpp
+[2.703s] [35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[2.705s] [35m[1mConsolidate compiler generated dependencies of target moveL_action[0m
+[2.708s] [ 25%] [32mBuilding CXX object CMakeFiles/moveXYZ_action.dir/src/moveXYZ_action.cpp.o[0m
+[2.708s] [ 25%] [32mBuilding CXX object CMakeFiles/moveXYZW_action.dir/src/moveXYZW_action.cpp.o[0m
+[2.721s] [ 50%] [32m[1mLinking CXX executable moveXYZW_action[0m
+[2.721s] [ 50%] [32m[1mLinking CXX executable moveXYZ_action[0m
+[2.728s] [ 62%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
+[2.730s] [ 75%] [32mBuilding CXX object CMakeFiles/moveL_action.dir/src/moveL_action.cpp.o[0m
+[6.715s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveL_ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveL_Goal_<std::allocator<void> > >)[m[K’:
+[6.716s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.716s]    54 |             [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[6.716s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.725s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Kvoid MoveL_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveL> >)[m[K’:
+[6.725s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.725s]   147 |             double [01;35m[Kfraction[m[K = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+[6.725s]       |                    [01;35m[K^~~~~~~~[m[K
+[6.725s] [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:108:50:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.725s]   108 |             const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3e_arm");
+[6.725s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[9.296s] [ 87%] [32m[1mLinking CXX executable moveJ_action[0m
+[9.476s] [100%] [32m[1mLinking CXX executable moveL_action[0m
+[9.600s] [100%] Built target moveJ_action
+[9.786s] [100%] Built target moveL_action
+[16.262s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[16.262s] (.text+0x1b): undefined reference to `main'
+[16.264s] collect2: error: ld returned 1 exit status
+[16.265s] gmake[2]: *** [CMakeFiles/moveXYZW_action.dir/build.make:379: moveXYZW_action] Error 1
+[16.265s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/moveXYZW_action.dir/all] Error 2
+[16.265s] gmake[1]: *** Waiting for unfinished jobs....
+[16.417s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[16.417s] (.text+0x1b): undefined reference to `main'
+[16.420s] collect2: error: ld returned 1 exit status
+[16.421s] gmake[2]: *** [CMakeFiles/moveXYZ_action.dir/build.make:379: moveXYZ_action] Error 1
+[16.421s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/moveXYZ_action.dir/all] Error 2
+[16.421s] gmake: *** [Makefile:146: all] Error 2
+[16.423s] Invoked command in '/home/harry/ur3e_ws/build/ur3e_ros_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data:/home/harry/ur3e_ws/install/ur_moveit_config:/home/harry/ur3e_ws/install/ur_description:/home/harry/ur3e_ws/install/ur_dashboard_msgs:/home/harry/ur3e_ws/install/ur3e_ros_action_cpp:/home/harry/ur3e_ws/install/ur3e_moveit:/home/harry/ur3e_ws/install/ur3e_new_moveit_config:/home/harry/ur3e_ws/install/ur3e_moveit_config:/home/harry/ur3e_ws/install/ur3e_gazebo_sim:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron LD_LIBRARY_PATH=/home/harry/ur3e_ws/install/ur3e_ros_data/lib:/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur3e_ros_action_cpp -- -j8 -l8

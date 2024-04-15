@@ -268,8 +268,18 @@ CMakeFiles/ur3e_ros_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur
   rosidl_generator_c/ur3e_ros_data/action/detail/move_j__functions.h \
   rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h \
   rosidl_generator_c/ur3e_ros_data/action/detail/move_l__struct.h \
-  rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.h
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h \
+  rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h
 
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h:
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h:
 
 rosidl_generator_c/ur3e_ros_data/action/detail/move_l__struct.h:
 
@@ -447,17 +457,23 @@ rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h:
+
 /usr/include/python3.10/weakrefobject.h:
 
 /usr/include/inttypes.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h:
+
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -532,6 +548,8 @@ rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h:
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
 /usr/include/python3.10/longintrepr.h:
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h:
 
 rosidl_generator_c/ur3e_ros_data/msg/rosidl_generator_c__visibility_control.h:
 

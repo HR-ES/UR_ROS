@@ -78,6 +78,14 @@ CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_l.
 CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__builder.hpp
 CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__struct.hpp
 CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__traits.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_xyzw.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__builder.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__struct.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__traits.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_xyz.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__builder.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__struct.hpp
+CMakeFiles/ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__traits.hpp
 
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_cpp/__init__.py
@@ -97,6 +105,8 @@ rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/share/rosid
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: rosidl_adapter/ur3e_ros_data/msg/JointPose.idl
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: rosidl_adapter/ur3e_ros_data/action/MoveJ.idl
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: rosidl_adapter/ur3e_ros_data/action/MoveL.idl
+rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: rosidl_adapter/ur3e_ros_data/action/MoveXYZW.idl
+rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: rosidl_adapter/ur3e_ros_data/action/MoveXYZ.idl
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp: /opt/ros/iron/share/builtin_interfaces/msg/Time.idl
@@ -141,6 +151,30 @@ rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__struct.hpp: rosidl_gene
 rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__traits.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__traits.hpp
 
+rosidl_generator_cpp/ur3e_ros_data/action/move_xyzw.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/move_xyzw.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__builder.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__builder.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__struct.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__struct.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__traits.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__traits.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/move_xyz.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/move_xyz.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__builder.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__builder.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__struct.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__struct.hpp
+
+rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__traits.hpp: rosidl_generator_cpp/ur3e_ros_data/msg/joint_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__traits.hpp
+
 ur3e_ros_data__cpp: CMakeFiles/ur3e_ros_data__cpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_j__builder.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_j__struct.hpp
@@ -148,8 +182,16 @@ ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_j__tra
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__builder.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__struct.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_l__traits.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__builder.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__struct.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyz__traits.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__builder.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__struct.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/detail/move_xyzw__traits.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_j.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_l.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_xyz.hpp
+ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/action/move_xyzw.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/msg/detail/joint_pose__builder.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/msg/detail/joint_pose__struct.hpp
 ur3e_ros_data__cpp: rosidl_generator_cpp/ur3e_ros_data/msg/detail/joint_pose__traits.hpp

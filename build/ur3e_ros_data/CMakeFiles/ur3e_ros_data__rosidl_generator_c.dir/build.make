@@ -91,6 +91,8 @@ rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: /opt/ros/iron/share/rosidl_ge
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: rosidl_adapter/ur3e_ros_data/msg/JointPose.idl
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: rosidl_adapter/ur3e_ros_data/action/MoveJ.idl
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: rosidl_adapter/ur3e_ros_data/action/MoveL.idl
+rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: rosidl_adapter/ur3e_ros_data/action/MoveXYZW.idl
+rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: rosidl_adapter/ur3e_ros_data/action/MoveXYZ.idl
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: /opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: /opt/ros/iron/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h: /opt/ros/iron/share/builtin_interfaces/msg/Time.idl
@@ -135,6 +137,30 @@ rosidl_generator_c/ur3e_ros_data/action/detail/move_l__struct.h: rosidl_generato
 rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h
 
+rosidl_generator_c/ur3e_ros_data/action/move_xyzw.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/move_xyzw.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h
+
+rosidl_generator_c/ur3e_ros_data/action/move_xyz.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/move_xyz.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h
+
 rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c
 
@@ -161,6 +187,24 @@ rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.c: rosidl_gener
 
 rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c
+
+rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c: rosidl_generator_c/ur3e_ros_data/msg/joint_pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c
 
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c.o: rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c
@@ -288,6 +332,90 @@ CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_dat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c.s
 
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.s
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/flags.make
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o -MF CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o.d -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o -c /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c > CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.i
+
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c -o CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.s
+
 # Object files for target ur3e_ros_data__rosidl_generator_c
 ur3e_ros_data__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c.o" \
@@ -298,7 +426,13 @@ ur3e_ros_data__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_j__type_support.c.o" \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__description.c.o" \
 "CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.c.o" \
-"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c.o"
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o" \
+"CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o"
 
 # External object files for target ur3e_ros_data__rosidl_generator_c
 ur3e_ros_data__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -312,6 +446,12 @@ libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_genera
 libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__description.c.o
 libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__functions.c.o
 libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c.o
+libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c.o
 libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/build.make
 libur3e_ros_data__rosidl_generator_c.so: /opt/ros/iron/lib/libaction_msgs__rosidl_generator_c.so
 libur3e_ros_data__rosidl_generator_c.so: /opt/ros/iron/lib/libunique_identifier_msgs__rosidl_generator_c.so
@@ -320,7 +460,7 @@ libur3e_ros_data__rosidl_generator_c.so: /opt/ros/iron/lib/libbuiltin_interfaces
 libur3e_ros_data__rosidl_generator_c.so: /opt/ros/iron/lib/librosidl_runtime_c.so
 libur3e_ros_data__rosidl_generator_c.so: /opt/ros/iron/lib/librcutils.so
 libur3e_ros_data__rosidl_generator_c.so: CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libur3e_ros_data__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/ur3e_ws/build/ur3e_ros_data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C shared library libur3e_ros_data__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,8 +483,22 @@ CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_l__struct.h
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.c
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_l__type_support.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__description.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__functions.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__struct.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyz__type_support.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__description.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__functions.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__struct.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.c
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/detail/move_xyzw__type_support.h
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/move_j.h
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/move_l.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/move_xyz.h
+CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/action/move_xyzw.h
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__description.c
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__functions.c
 CMakeFiles/ur3e_ros_data__rosidl_generator_c.dir/depend: rosidl_generator_c/ur3e_ros_data/msg/detail/joint_pose__functions.h
