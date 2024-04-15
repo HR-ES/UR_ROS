@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:174 (file):
-  file INSTALL cannot set permissions on
-  "/home/harry/ur_ws/install/ur3e_ros_data/include/ur3e_ros_data/ur3e_ros_data/action/detail/dds_fastrtps":
-  Operation not permitted.
-
-[0m

@@ -12,6 +12,7 @@ find_package(std_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(moveit_core REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 
 if(BUILD_TESTING)
@@ -25,18 +26,33 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+# moveJ_action.cpp:
 add_executable(moveJ_action src/moveJ_action.cpp)
 ament_target_dependencies(
   moveJ_action
   moveit_ros_planning_interface
+  moveit_core
   std_msgs
   rclcpp
   rclcpp_action
-  rclcpp_components
-  ur3e_ros_data
-)
+  ur3e_ros_data)
 install(TARGETS
   moveJ_action
+  DESTINATION lib/${PROJECT_NAME})
+
+# moveL_action.cpp:
+add_executable(moveL_action src/moveL_action.cpp)
+ament_target_dependencies(
+  moveL_action
+  moveit_ros_planning_interface
+  moveit_core
+  std_msgs
+  rclcpp
+  rclcpp_action
+  ur3e_ros_data)
+install(TARGETS
+  moveL_action
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

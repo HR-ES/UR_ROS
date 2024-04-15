@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur3e_ros_data/action/MoveL_Result",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur3e_ros_data/action/MoveL_Result",
+      "hash_string": "RIHS01_422a675343bd7a9d807f172cd6bed9ed2bd9ae920c6db6c67883ac215aba57cf"
+    }
+  ]
+}

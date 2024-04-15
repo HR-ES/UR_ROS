@@ -1,0 +1,34 @@
+In file included from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:43[m[K:
+[01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:761:17:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveItErrorCode[m[K’ in namespace ‘[01m[Kmoveit::core[m[K’ does not name a type
+  761 |   moveit::core::[01;31m[KMoveItErrorCode[m[K execute(const Plan& plan,
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:770:17:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveItErrorCode[m[K’ in namespace ‘[01m[Kmoveit::core[m[K’ does not name a type
+  770 |   moveit::core::[01;31m[KMoveItErrorCode[m[K execute(const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:761:17:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveItErrorCode[m[K’ in namespace ‘[01m[Kmoveit::core[m[K’ does not name a type
+  761 |   moveit::core::[01;31m[KMoveItErrorCode[m[K execute(const Plan& plan,
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:770:17:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveItErrorCode[m[K’ in namespace ‘[01m[Kmoveit::core[m[K’ does not name a type
+  770 |   moveit::core::[01;31m[KMoveItErrorCode[m[K execute(const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveL_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:84:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveL> >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:196:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kexecute[m[K’
+  196 |             bool success2 = (move_group_interface.[01;31m[Kexecute[m[K(trajectory) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |                                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:194:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  194 |             double [01;35m[Kfraction[m[K = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+      |                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:144:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  144 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveL_action.dir/build.make:76: CMakeFiles/moveL_action.dir/src/moveL_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/moveL_action.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveJ_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

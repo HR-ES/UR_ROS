@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target moveL_action[0m
+[ 50%] Built target moveJ_action
+[ 75%] [32mBuilding CXX object CMakeFiles/moveL_action.dir/src/moveL_action.cpp.o[0m
+[100%] [32m[1mLinking CXX executable moveL_action[0m

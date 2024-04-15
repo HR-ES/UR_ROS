@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:msg/JointPose.idl",
-    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:action/MoveJ.idl"
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:action/MoveJ.idl",
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data:action/MoveL.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -34,6 +35,7 @@
     "/opt/ros/iron/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/msg/JointPose.idl",
     "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/action/MoveJ.idl",
+    "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/action/MoveL.idl",
     "/opt/ros/iron/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/iron/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/iron/share/builtin_interfaces/msg/Time.idl",
@@ -45,6 +47,7 @@
   ],
   "type_description_tuples": [
     "msg/JointPose.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/msg/JointPose.json",
-    "action/MoveJ.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveJ.json"
+    "action/MoveJ.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveJ.json",
+    "action/MoveL.idl:/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveL.json"
   ]
 }

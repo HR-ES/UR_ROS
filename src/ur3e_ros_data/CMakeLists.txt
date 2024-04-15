@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointPose.msg"
   "action/MoveJ.action"
+  "action/MoveL.action"
 )
 
 if(BUILD_TESTING)

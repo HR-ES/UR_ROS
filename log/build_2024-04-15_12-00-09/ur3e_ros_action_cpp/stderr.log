@@ -1,0 +1,23 @@
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse MoveL_ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ur3e_ros_data::action::MoveL_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |             [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:[m[K In member function ‘[01m[Kvoid MoveL_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveL> >)[m[K’:
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:149:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan&[m[K’
+  149 |             bool success2 = (move_group_interface.plan([01;31m[Ktrajectory[m[K) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+      |                                                        [01;31m[K|[m[K
+      |                                                        [01;31m[Kmoveit_msgs::msg::RobotTrajectory {aka moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h:741:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kmoveit::planning_interface::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::plan(moveit::planning_interface::MoveGroupInterface::Plan&)[m[K’
+  741 |   MoveItErrorCode plan([01;36m[KPlan& plan[m[K);
+      |                        [01;36m[K~~~~~~^~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  147 |             double [01;35m[Kfraction[m[K = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+      |                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveL_action.cpp:108:50:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  108 |             const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3e_arm");
+      |                                                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveL_action.dir/build.make:76: CMakeFiles/moveL_action.dir/src/moveL_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/moveL_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

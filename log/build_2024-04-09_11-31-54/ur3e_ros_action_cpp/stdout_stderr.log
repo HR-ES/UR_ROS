@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
-[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:19:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kclass[m[K’
-   19 | [01;31m[Kclass[m[K MoveJ_ActionServer : public rclcpp::Node
-      | [01;31m[K^~~~~[m[K
-gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveJ_action.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

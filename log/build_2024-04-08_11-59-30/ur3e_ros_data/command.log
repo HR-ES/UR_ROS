@@ -1,4 +1,0 @@
-Invoking command in '/home/harry/ur_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/harry/ur_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur_ws/install/ur3e_ros_data
-Invoked command in '/home/harry/ur_ws/build/ur3e_ros_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/harry/ur_ws/src/ur3e_ros_data -DCMAKE_INSTALL_PREFIX=/home/harry/ur_ws/install/ur3e_ros_data
-Invoking command in '/home/harry/ur_ws/build/ur3e_ros_data': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/harry/ur_ws/build/ur3e_ros_data -- -j2 -l2
-Invoked command in '/home/harry/ur_ws/build/ur3e_ros_data' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/harry/ur_ws/build/ur3e_ros_data -- -j2 -l2

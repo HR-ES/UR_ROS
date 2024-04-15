@@ -1,5 +1,0 @@
-[0.199s] Invoking command in '/home/harry/ur3e_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur_description -- -j8 -l8
-[0.210s] [0mCMake Error: The source directory "/home/harry/ur3e_ws/src/ur/Universal_Robots_ROS2_Description" does not exist.
-[0.210s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.210s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.219s] Invoked command in '/home/harry/ur3e_ws/build/ur_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/ur3e_ws/install/ur3e_ros_action:/opt/ros/iron /usr/bin/cmake --build /home/harry/ur3e_ws/build/ur_description -- -j8 -l8

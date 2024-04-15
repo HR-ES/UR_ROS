@@ -1,3 +1,0 @@
-[console_scripts]
-moveJ = ur3e_ros_action.moveJ_action:main
-

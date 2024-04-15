@@ -55,6 +55,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_ros_data/action" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_type_description/ur3e_ros_data/action/MoveL.json")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ur3e_ros_data/ur3e_ros_data" TYPE DIRECTORY FILES "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_generator_c/ur3e_ros_data/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -372,11 +376,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_ros_data/action" TYPE FILE FILES "/home/harry/ur3e_ws/build/ur3e_ros_data/rosidl_adapter/ur3e_ros_data/action/MoveL.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_ros_data/msg" TYPE FILE FILES "/home/harry/ur3e_ws/src/ur3e_ros_data/msg/JointPose.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_ros_data/action" TYPE FILE FILES "/home/harry/ur3e_ws/src/ur3e_ros_data/action/MoveJ.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3e_ros_data/action" TYPE FILE FILES "/home/harry/ur3e_ws/src/ur3e_ros_data/action/MoveL.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

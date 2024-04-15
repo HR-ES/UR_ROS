@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o[0m
-[01m[K/home/harry/ur3e_ws/src/ur3e_ros_action_cpp/src/moveJ_action.cpp:6:10:[m[K [01;31m[Kfatal error: [m[K/opt/ros/iron/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface_improved.h: Permission denied
-    6 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/src/moveJ_action.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveJ_action.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

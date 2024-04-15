@@ -5,3 +5,10 @@ from ur3e_ros_data.action._move_j import MoveJ_GetResult_Response  # noqa: F401
 from ur3e_ros_data.action._move_j import MoveJ_SendGoal_Event  # noqa: F401
 from ur3e_ros_data.action._move_j import MoveJ_SendGoal_Request  # noqa: F401
 from ur3e_ros_data.action._move_j import MoveJ_SendGoal_Response  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_GetResult_Event  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_GetResult_Request  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_GetResult_Response  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_SendGoal_Event  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_SendGoal_Request  # noqa: F401
+from ur3e_ros_data.action._move_l import MoveL_SendGoal_Response  # noqa: F401

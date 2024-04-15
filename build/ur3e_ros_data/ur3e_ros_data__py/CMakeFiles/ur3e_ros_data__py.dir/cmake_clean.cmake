@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/ur3e_ros_data/action/__init__.py"
   "../rosidl_generator_py/ur3e_ros_data/action/_move_j.py"
   "../rosidl_generator_py/ur3e_ros_data/action/_move_j_s.c"
+  "../rosidl_generator_py/ur3e_ros_data/action/_move_l.py"
+  "../rosidl_generator_py/ur3e_ros_data/action/_move_l_s.c"
   "../rosidl_generator_py/ur3e_ros_data/msg/__init__.py"
   "../rosidl_generator_py/ur3e_ros_data/msg/_joint_pose.py"
   "../rosidl_generator_py/ur3e_ros_data/msg/_joint_pose_s.c"

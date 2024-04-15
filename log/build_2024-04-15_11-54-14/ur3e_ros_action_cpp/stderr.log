@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/moveL_action.dir/src/moveL_action.cpp.o: in function `MoveL_ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur3e_ros_data::action::MoveL> >)':
+moveL_action.cpp:(.text._ZN18MoveL_ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ur3e_ros_data6action5MoveLEEEE[_ZN18MoveL_ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ur3e_ros_data6action5MoveLEEEE]+0xc60): undefined reference to `moveit::planning_interface::MoveGroupInterface::execute(moveit_msgs::msg::RobotTrajectory_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/moveL_action.dir/build.make:379: moveL_action] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/moveL_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

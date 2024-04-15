@@ -1,8 +1,0 @@
-[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
-  rosidl_generate_interfaces() the passed file 'msg/JointPost.msg' doesn't
-  exist relative to the CMAKE_CURRENT_SOURCE_DIR
-  '/home/harry/ur_ws/src/ur3e_ros_data'
-Call Stack (most recent call first):
-  CMakeLists.txt:14 (rosidl_generate_interfaces)
-
-[0m
