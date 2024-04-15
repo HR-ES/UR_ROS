@@ -191,12 +191,9 @@ def generate_launch_description():
                           'moveit_controller_manager': 'moveit_simple_controller_manager/MoveItSimpleControllerManager',}
     
     # Joint Limits
-    joint_limits_yaml = load_yaml('ur3e_moveit', 'config/joint_limits.yaml')
+    joint_limits_yaml = load_yaml('ur3e_gazebo_sim', 'config/joint_limits.yaml')
     joint_limits = {"robot_description_planning": joint_limits_yaml}
-    print(joint_limits)
     
-    
-
     trajectory_execution = {'moveit_manage_controllers': True,
                             'trajectory_execution.allowed_execution_duration_scaling': 1.2,
                             'trajectory_execution.allowed_goal_duration_margin': 0.5,

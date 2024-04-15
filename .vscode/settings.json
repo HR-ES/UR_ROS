@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/harry/ur3e_ws/install/ur_moveit_config/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur3e_ros_data/lib/python3.10/site-packages",
+        "/home/harry/ur3e_ws/install/ur3e_ros_action/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

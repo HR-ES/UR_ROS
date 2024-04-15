@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/harry/ur3e_ws/install/ur_dashboard_msgs/include/**",
+        "/home/harry/ur3e_ws/install/ur3e_ros_data/include/**",
+        "/opt/ros/iron/include/**",
+        "/home/harry/ur3e_ws/src/ur3e_moveit_config/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
